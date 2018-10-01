@@ -752,7 +752,7 @@ section{
 }
 
 .infoJuego {
-  background: red;
+  background: #04445c;
   box-shadow: 0px 0px 10px #ff9;
   font-family: monospace;
   width: 650px;
@@ -762,7 +762,7 @@ section{
 }
 
 .infoJuego1 {
- background: red;
+ background: #04445c;
  box-shadow: 0px 0px 10px #ff9;
  font-family: monospace;
  overflow: scroll;
@@ -785,4 +785,23 @@ section{
 .MuestraJuego2{
   float: right;
   width: 300px;
+}
+
+.MuestraJuego2 a {
+  background-color: #02223b;
+  width: 75px;
+  height: 35px;
+  margin-top: 10px;
+  margin-right: 50px;
+  border: 1px solid #006797;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  float: left;
+}
+
+.MuestraJuego2 h2 {
+width: 100px;
+float: left;
 }
