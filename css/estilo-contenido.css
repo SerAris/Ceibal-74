@@ -730,6 +730,8 @@ color: white;
   background-image: radial-gradient(#003666, #005686);
 }
 
+/* Pac-Man */
+
 .tableGame {
   margin: 10px;
   background-color: black;
@@ -758,8 +760,9 @@ section{
  margin: 50px 0px 200px 50px;
 }
 
-.infoJuego {
+.infoJuego1 {
  background: red;
+ float: right;
  box-shadow: 0px 0px 10px #ff9;
  font-family: monospace;
  margin-right: 400px;
