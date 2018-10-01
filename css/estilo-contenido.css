@@ -1,4 +1,4 @@
-/* Indice - destacados */
+﻿/* Indice - destacados */
 
 .indice-destacados-ofertas {
   width: 1100px;
@@ -751,10 +751,19 @@ section{
   margin: auto;
 }
 
+.infoJuego {
+  background: red;
+  box-shadow: 0px 0px 10px #ff9;
+  font-family: monospace;
+  width: 750px;
+  float: left;
+}
+
 .infoJuego1 {
  background: red;
  box-shadow: 0px 0px 10px #ff9;
  font-family: monospace;
+<<<<<<< HEAD
  overflow: scroll;
 }
 
@@ -762,4 +771,9 @@ section{
  background: red;
  box-shadow: 0px 0px 10px #ff9;
  font-family: monospace;
+=======
+}
+
+div.MuestraJuego  {
+>>>>>>> 98e4652e99c235004383f98739a3f3eb3781ffba
 }
