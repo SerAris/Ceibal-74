@@ -754,14 +754,25 @@ section{
  float: right;
  box-shadow: 0px 0px 10px #ff9;
  font-family: monospace;
+ overflow: scroll;
+ margin: 50px 0px 200px 50px;
 }
 
 .infoJuego {
  background: red;
  box-shadow: 0px 0px 10px #ff9;
  font-family: monospace;
- margin: 50px 400px 50px 100px;
+ margin-right: 400px;
+ float: left;
 }
 
-div.MuestraJuego  {
+.MuestraJuego  {
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.infoJuegoPrincipal {
+ float: inline-block;
 }
