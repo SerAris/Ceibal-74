@@ -729,3 +729,39 @@ color: white;
 #juego-novedades:hover .novedades-juego-precio {
   background-image: radial-gradient(#003666, #005686);
 }
+
+.tableGame {
+  margin: 10px;
+  background-color: black;
+  padding: 5px 3px 3px 3px;
+}
+
+table.tableGame td {
+  background-color: #02223b;
+  padding: 7px;
+  color: white;
+}
+section{
+  color: white;
+}
+
+.PrincipalGame {
+  margin: auto;
+}
+
+.infoJuego1 {
+ background: red;
+ float: right;
+ box-shadow: 0px 0px 10px #ff9;
+ font-family: monospace;
+}
+
+.infoJuego {
+ background: red;
+ box-shadow: 0px 0px 10px #ff9;
+ font-family: monospace;
+ margin: 50px 400px 50px 100px;
+}
+
+div.MuestraJuego  {
+}
