@@ -920,6 +920,7 @@ section{
   margin-bottom: 5px;
   margin-left: 5px;
   float: left;
+  border-radius: 5px;
 }
 
 .infoJuego img {
@@ -927,6 +928,7 @@ section{
   float: right;
   margin-top: 5px;
   margin-right: 5px;
+  border-radius: 5px;
 }
 
 .MuestraJuego2 {
@@ -954,10 +956,24 @@ float: left;
 }
 
 .PrincipalJuego {
-  background: #02223b;
+  background: #04445c;
   width: 500px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   margin-left: 300px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px black;
+<<<<<<< HEAD
 }
+=======
+  font-family: monospace;
+}
+
+.PrincipalJuego h3 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.PrincipalJuego img {
+  position: unset;
+}
+>>>>>>> 6fe8ad998ceb2d1b9ed2c0c8f55d8ea4b4452d76
