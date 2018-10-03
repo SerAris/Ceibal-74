@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Comunidad</title>
     <link rel="stylesheet" href="css/estilo-estructura.css">
+    <link rel="stylesheet" href="css/estilo-contenido.css">
   </head>
   <body>
     <header>
@@ -39,58 +40,59 @@
         </div>
       </div>
     </header>
-    <br>
-    <section>
-      <div class="">
-        <h3>Inicia sesión para aprovechar al máximo la Comunidad</h3>
-        <form class="" action="" method="post">
-          <label for="usuario">Nombre de usuario:</label><br>
-          <input type="text" id="usuario" name="Nombre de Usuario" pattern="[A-Za-z0-9]{3,12}" required>
-          <br>
-          <br>
-          <label for="contraseña">Contraseña:</label><br>
-          <input type="password" id="contraseña" name="Contraseña" pattern="[A-Za-z0-9]{8,24}" required><br>
-          <br>
-          <button type="submit" name="Iniciar sesión">Iniciar sesión</button>
-        </form>
-        <br>
-        <div class="">
-          ¿No tienes cuenta en <i>Nombre de la Empresa</i>? <a href="registro.html">Regístrate gratis aquí.</a>
+    <section class="comunidad-section">
+      <div class="comunidad-subcabecera">
+        <div class="comunidad-inicio-sesion">
+          <h3>Inicia sesión para aprovechar al máximo la Comunidad</h3>
+          <div class="comunidad-formularios">
+            <form class="comunidad-formulario" action="" method="post">
+              <input type="text" id="usuario" name="Nombre de Usuario" placeholder="Nombre de Usuario" pattern="[A-Za-z0-9]{3,12}" required>
+              <br>
+              <input type="password" id="contraseña" name="Contraseña" placeholder="Contraseña" pattern="[A-Za-z0-9]{8,24}" required>
+              <br>
+              <button type="submit" name="Iniciar sesión">Iniciar sesión</button>
+            </form>
+            <div class="comunidad-registrarse">
+              ¿No tienes cuenta en <i>Nombre de la Empresa</i>? <a href="registro.html">Regístrate gratis aquí.</a>
+            </div>
+          </div>
+          <img src="images/Comunidad400x230.png" alt="Imagen comunidad">
         </div>
       </div>
-      <hr>
-      <div class="">
-        <a href="noticias.html">
-          <img src="images/ImagenTematica350x200.png" alt="Noticias-Logo">
-          <h2>Noticias</h2>
-          <div class="">Entérate de las últimas nocitias, contenidos adicionales y más avances en videojuegos ya
-          estrenados por estrenar. Además de más información relacionada al mundo del entretenimiento jugable.</div>
-        </a>
-      </div>
-      <br>
-      <div class="">
-        <a href="foro.html">
-          <img src="images/ImagenTematica350x200.png" alt="Foro-Logo">
-          <h2>Foro</h2>
-          <div class="">Lee reseñas, coméntalas, opina sobre otros comentario y valora el contenido generado por
-          los usuarios de la comunidad. Tu opinión importa.</div>
-        </a>
-      </div>
-      <div class="">
-        <h2>Media</h2>
-        <div class="">Síguenos en las redes sociales para enterarte al instante de todo.</div>
-        <br>
-        <div class="">
-          <a href="#"><img src="images/Facebook-Logo.png" alt="Facebook-Logo"></a>
-          <h3><i>Nombre de la Empresa</i> en Facebook</h3>
+      <div class="comunidad-secciones">
+        <div class="comunidad-seccion-noticias">
+          <a href="noticias.html">
+            <img src="images/ImagenTematica350x200.png" alt="Noticias-Logo">
+            <h2 class="comunidad-seccion-titulo">Noticias</h2>
+            <hr>
+            <div class="comunidad-seccion-contenido">Entérate de las últimas nocitias, contenidos adicionales y más avances en videojuegos ya
+            estrenados por estrenar. Además de más información relacionada al mundo del entretenimiento jugable.</div>
+          </a>
         </div>
-        <div class="">
-          <a href="#"><img src="images/Twitter-Logo.png" alt="Twitter-Logo"></a>
-          <h3><i>Nombre de la Empresa</i> en Twitter</h3>
+        <div class="comunidad-seccion-foro">
+          <a href="foro.html">
+            <img src="images/ImagenTematica350x200.png" alt="Foro-Logo">
+            <h2 class="comunidad-seccion-titulo">Foro</h2>
+            <hr>
+            <div class="comunidad-seccion-contenido">Lee reseñas, coméntalas, opina sobre otros comentario y valora el contenido generado por
+            los usuarios de la comunidad. Tu opinión importa.</div>
+          </a>
+        </div>
+        <div class="comunidad-seccion-media">
+          <h2 class="comunidad-seccion-titulo">Media</h2>
+          <hr>
+          <div class="comunidad-seccion-contenido">Síguenos en las redes sociales para enterarte al instante de todo:</div>
+          <div class="comunidad-facebook">
+            <a href="#"><img src="images/Facebook-Logo.png" alt="Facebook-Logo"></a>
+            <h3><i>Nombre de la Empresa</i> en Facebook</h3>
+          </div>
+          <div class="comunidad-twitter">
+            <a href="#"><img src="images/Twitter-Logo.png" alt="Twitter-Logo"></a>
+            <h3><i>Nombre de la Empresa</i> en Twitter</h3>
+          </div>
         </div>
       </div>
     </section>
-    <br>
     <footer>
       <div class="footer">
         <div class="footer-arriba">
