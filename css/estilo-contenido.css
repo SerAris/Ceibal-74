@@ -780,8 +780,10 @@ section{
 }
 
 .infoJuego img {
-  width: 150px;
+  width: 130px;
   float: right;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
 .MuestraJuego2{
