@@ -730,6 +730,148 @@ color: white;
   background-image: radial-gradient(#003666, #005686);
 }
 
+/* Comunidad */
+
+.comunidad-section {
+  margin-top: 0px;
+}
+
+.comunidad-subcabecera {
+  background-color: #04445c;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  box-shadow: 0px 0px 20px #000;
+  padding: 50px 0px 30px 0px;
+  background-image: linear-gradient(black, #04445c);
+}
+
+.comunidad-inicio-sesion {
+  display: inline-block;
+  width: 100%;
+}
+
+.comunidad-inicio-sesion h3 {
+  color: white;
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 100px;
+}
+
+.comunidad-formularios {
+  margin-top: 15px;
+  background-color: #03334b;
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 230px;
+  width: 500px;
+  float: left;
+  margin-left: 100px;
+}
+
+.comunidad-formulario input {
+  height: 30px;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.comunidad-formulario button {
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 30px;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid #04445c;
+}
+
+.comunidad-registrarse {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.comunidad-registrarse a {
+  color: gold;
+}
+
+.comunidad-inicio-sesion img {
+  float: right;
+  margin-top: 16px;
+  margin-right: 100px;
+}
+
+.comunidad-secciones {
+  display: inline-block;
+  width: 1100px;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.comunidad-seccion-noticias {
+  width: 350px;
+  height: 350px;
+  float: left;
+  background-color: #04445c;
+  box-shadow: 0px 0px 20px #000;
+}
+
+.comunidad-seccion-foro {
+  width: 350px;
+  height: 350px;
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #04445c;
+  box-shadow: 0px 0px 20px #000;
+}
+
+.comunidad-seccion-media {
+  width: 350px;
+  height: 269px;
+  margin-top: 43px;
+  float: right;
+  background-color: #04445c;
+  box-shadow: 0px 0px 20px #000;
+}
+
+.comunidad-seccion-titulo {
+  color: white;
+  font-family: monospace;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.comunidad-seccion-contenido {
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.comunidad-facebook {
+  display: flex;
+}
+
+.comunidad-twitter {
+  display: flex;
+}
+
+.comunidad-facebook img, .comunidad-twitter img{
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.comunidad-facebook h3, .comunidad-twitter h3{
+  margin-top: 25px;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
 /* Pac-Man */
 
 .tableGame {

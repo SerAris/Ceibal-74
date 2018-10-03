@@ -150,3 +150,8 @@ a:hover {
 a:active {
     color: none;
 }
+
+hr {
+	margin-left: 10px;
+	margin-right: 10px;
+}
