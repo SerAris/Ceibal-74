@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Contacto</title>
     <link rel="stylesheet" href="css/estilo-estructura.css">
+    <link rel="stylesheet" href="css/estilo-contenido.css">
   </head>
   <body>
     <header>
@@ -39,33 +40,31 @@
         </div>
       </div>
     </header>
-    <br>
     <section>
-      <h2>Contacte con nosotros</h2>
-      <p>Para sus consultas, puede dirigirse a nosotros por los siguientes medios.</p>
-      <br>
-      <div>
-        <form class="" action="mailto:nombreempresa@ejemplo.com" method="post">
-          <label for="nombre">Nombre:</label><br>
-          <input type="text" id="nombre" name="Nombre" required>
-          <br>
-          <br>
-          <label for="correo">Correo electrónico:</label><br>
-          <input type="email" id="correo" name="Correo electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
-          <br>
-          <label for="comentarios">Comentarios:</label><br>
-          <textarea id="comentarios" name="Comentarios" rows="10" cols="40" required></textarea><br>
-          <input type="submit" value="Enviar">
-        </form>
+      <div class="contacto-contenido">
+        <h2>Contacte con nosotros</h2>
+        <p>Para sus consultas, puede dirigirse a nosotros por los siguientes medios.</p>
+        <div class="contacto-formulario">
+          <form class="contacto-formulario-contenido" action="mailto:nombreempresa@ejemplo.com" method="post">
+            <input type="text" id="nombre" name="Nombre" placeholder="Nombre" required>
+            <input type="email" id="correo" name="Correo electrónico" placeholder="Correo electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+            <br>
+            <textarea id="comentarios" name="Comentarios" placeholder="Escriba aquí su comentario..." rows="10" cols="40" required></textarea>
+            <input class="contacto-form-enviar" type="submit" value="Enviar">
+          </form>
+        </div>
+        <div class="contacto-datos">
+        <b>Nombre de empresa</b>
+        <br>
+        Dirección de sede u oficinas
+        <br>
+        Teléfono
+        </div>
+        <div class="contacto-iframe-fondo">
+          <iframe class="contacto-iframemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.0901420808586!2d-56.17132727044581!3d-34.910450505381526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81a524c430f3%3A0x8bc559be2b555673!2sCabo+Polonio%2C+11200+Montevideo!5e0!3m2!1ses-419!2suy!4v1533527683911" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
       </div>
-      <br>
-      <div class=""><b>Nombre de empresa</b><br>
-      Dirección de sede u oficinas<br>
-      Teléfono</div>
-      <br>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.0901420808586!2d-56.17132727044581!3d-34.910450505381526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81a524c430f3%3A0x8bc559be2b555673!2sCabo+Polonio%2C+11200+Montevideo!5e0!3m2!1ses-419!2suy!4v1533527683911" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
-    <br>
     <footer>
       <div class="footer">
         <div class="footer-arriba">

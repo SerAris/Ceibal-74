@@ -871,6 +871,89 @@ color: white;
   margin-right: 10px;
 }
 
+/* Soporte - contacto */
+
+.contacto-contenido {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.contacto-contenido h2 {
+  font-family: monospace;
+}
+
+.contacto-contenido p {
+  font-family: monospace;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contacto-formulario {
+  float: left;
+  background-color: #04445c;
+  padding: 30px;
+  width: 650px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #000;
+  margin-bottom: 50px;
+}
+
+.contacto-formulario input {
+  display: block;
+}
+
+.contacto-formulario input:nth-child(1), .contacto-formulario input:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.contacto-formulario input:nth-child(1) {
+  float: left;
+  width: 300px;
+  height: 25px;
+}
+
+.contacto-formulario input:nth-child(2) {
+  float: right;
+  width: 300px;
+  height: 25px;
+}
+
+.contacto-formulario textarea {
+  width: 100%;
+}
+
+.contacto-form-enviar {
+  margin: auto;
+  margin-top: 20px;
+  height: 30px;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid #04445c;
+  width: 100px;
+  font-size: 15px;
+}
+
+.contacto-datos {
+  float: left;
+  margin-left: 20px;
+}
+
+.contacto-iframe-fondo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #04445c;
+  box-shadow: 0px 0px 20px #000;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.contacto-iframemap {
+  width: 300px;
+  height: 200px;
+}
+
 /* Pac-Man */
 
 .tableGame {
