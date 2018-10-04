@@ -964,6 +964,47 @@ color: white;
 
 /* Comunidad - foro */
 
+.foro-pagina-contenido {
+  width: 860px;
+  margin: auto;
+  background-color: #04445c;
+  padding: 30px;
+  box-shadow: 0px 0px 20px #000;
+}
+
+.foro-pagina-contenido h2 {
+  font-family: monospace;
+}
+
+.foro-descripcion {
+  font-family: monospace;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.foro-subforos {
+  width: 800px;
+  margin: auto;
+}
+
+.foro-subforo {
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  border: 2px solid black;
+  margin-top: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+  font-family: monospace;
+  color: black;
+}
+
+.foro-subforo:hover {
+  background-color: darkgrey;
+}
+
 /* Soporte */
 
 /* Soporte - contacto */
