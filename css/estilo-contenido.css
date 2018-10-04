@@ -954,6 +954,64 @@ color: white;
   height: 200px;
 }
 
+/* Registro */
+
+.registro-contenido {
+  margin: auto;
+  width: 650px;
+}
+
+.registro-titulo {
+  font-family: monospace;
+}
+
+.registro-formulario {
+  background-color: #04445c;
+  width: 650px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #000;
+  margin-top: 15px;
+  padding: 30px 0px 30px 0px;
+}
+
+.registro-form-campos {
+  background-color: red;
+}
+
+.registro-form-campos input:nth-child(1) {
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 25px;
+}
+
+.registro-form-campos input:nth-child(2) {
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 25px;
+}
+
+.registro-formulario p {
+  clear: both;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registro-formulario a {
+  color: gold;
+}
+
+.registro-crearcuenta-boton {
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+}
+
 /* Pac-Man */
 
 .tableGame {

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Registro</title>
     <link rel="stylesheet" href="css/estilo-estructura.css">
+    <link rel="stylesheet" href="css/estilo-contenido.css">
   </head>
   <body>
     <header>
@@ -39,38 +40,29 @@
         </div>
       </div>
     </header>
-    <br>
-    <h2>Regístrate gratis en <i>Nombre de la Empresa</i></h2>
     <section>
-      <form class="" action="" method="post">
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="Nombre" maxlength="30" required>
-        <br>
-        <br>
-        <label for="apellido">Apellido:</label><br>
-        <input type="text" id="apellido" name="Apellido" maxlength="30" required>
-        <br>
-        <br>
-        <label for="correo">Correo electrónico:</label><br>
-        <input type="email" id="correo" name="Correo electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
-        <br>
-        <br>
-        <label for="usuario">Nombre de usuario:</label><br>
-        <input type="text" id="usuario" name="Nombre de Usuario" pattern="[A-Za-z0-9]{3,12}" required>
-        <br>
-        <br>
-        <label for="contraseña">Contraseña:</label><br>
-        <input type="password" id="contraseña" name="Contraseña" pattern="[A-Za-z0-9]{8,24}" required>
-        <br>
-        <br>
-        <label for="repetircontraseña">Repetir contraseña:</label><br>
-        <input type="password" id="repetircontraseña" name="Repetir contraseña" pattern="[A-Za-z0-9]{8,24}" required>
-        <br>
-        <p>Al crear tu cuenta en <i>Nombre de la empresa</i>, aceptas nuestras <a href="politicas.html">Políticas de Uso y Privacidad</a>.</p>
-        <button type="submit" name="Crear cuenta">Crear cuenta</button>
-      </form>
+      <div class="registro-contenido">
+        <h2 class="registro-titulo">Regístrate gratis en <i>Nombre de la Empresa</i></h2>
+        <div class="registro-formulario">
+          <form class="" action="" method="post">
+            <div class="registro-form-campos">
+              <input type="text" id="nombre" name="Nombre" placeholder="Nombre" maxlength="30" required>
+              <input type="text" id="apellido" name="Apellido" placeholder="Apellido" maxlength="30" required>
+            </div>
+            <div class="registro-form-campos">
+              <input type="email" id="correo" name="Correo electrónico" placeholder="Correo electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+              <input type="text" id="usuario" name="Nombre de Usuario" placeholder="Nombre de usuario" pattern="[A-Za-z0-9]{3,12}" required>
+            </div>
+            <div class="registro-form-campos">
+              <input type="password" id="contraseña" name="Contraseña" placeholder="Contraseña" pattern="[A-Za-z0-9]{8,24}" required>
+              <input type="password" id="repetircontraseña" name="Repetir contraseña" placeholder="Repetir contraseña" pattern="[A-Za-z0-9]{8,24}" required>
+            </div>
+            <p>Al crear tu cuenta en <i>Nombre de la empresa</i>, aceptas nuestras <a href="politicas.html">Políticas de Uso y Privacidad</a>.</p>
+            <input class="registro-crearcuenta-boton" type="submit" value="Crear cuenta">
+          </form>
+        </div>
+      </div>
     </section>
-    <br>
     <footer>
       <div class="footer">
         <div class="footer-arriba">
