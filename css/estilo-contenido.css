@@ -871,6 +871,101 @@ color: white;
   margin-right: 10px;
 }
 
+/* Comunidad - noticias */
+
+.noticias-pagina-contenido {
+  width: 800px;
+  margin: auto;
+}
+
+.noticias-titulo-principal {
+  font-family: monospace;
+}
+
+.noticias-pares {
+  height: 350px;
+}
+
+.noticias-pares:nth-child(2) {
+  margin-top: 15px;
+}
+
+.noticias-pares:nth-child(3), .noticias-pares:nth-child(4), .noticias-pares:nth-child(5), .noticias-pares:nth-child(6) {
+  margin-top: 30px;
+}
+
+.noticias-pares a {
+  color: white;
+}
+
+.noticia-izquierda {
+  background-color: #04445c;
+  box-shadow: 0px 0px 20px #000;
+  float: left;
+  width: 350px;
+  height: 350px;
+}
+
+.noticias-noticia-titulo {
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.noticias-noticia-fecha {
+  float: right;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.noticias-noticia-contenido {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.noticia-derecha {
+  background-color: #04445c;
+  box-shadow: 0px 0px 20px #000;
+  float: right;
+  width: 350px;
+  height: 350px;
+}
+
+.noticia-derecha-titulo {
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.noticia-derecha-fecha {
+  float: right;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.noticia-derecha-contenido {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+/* Comunidad - foro */
+
+/* Soporte */
+
 /* Soporte - contacto */
 
 .contacto-contenido {
@@ -953,6 +1048,8 @@ color: white;
   width: 350px;
   height: 217px;
 }
+
+/* Soporte - acerca de nosotros */
 
 /* Registro */
 
