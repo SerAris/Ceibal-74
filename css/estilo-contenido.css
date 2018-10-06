@@ -1225,6 +1225,94 @@ color: white;
 
  /* Inicio de sesión */
 
+.initsesion-section {
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+ .initsesion-pestana {
+   padding: 50px;
+   background-color: #04445c;
+   border-bottom-style: solid;
+   border-bottom-width: 1px;
+   border-bottom-color: black;
+   box-shadow: 0px 0px 20px #000;
+   background-image: linear-gradient(black, #04445c);
+   margin-bottom: 50px;
+ }
+
+ .initsesion-form-multimedia {
+   display: inline-block;
+   width: 100%;
+ }
+
+ .initsesion-pag-formulario {
+   background-color: #04445c;
+   width: 300px;
+   padding: 20px;
+   border-radius: 20px;
+   box-shadow: 0px 0px 20px #000;
+   float: left;
+   display:
+ }
+
+ .initsesion-pag-formulario h2 {
+   font-family: monospace;
+   text-align: center;
+ }
+
+ .initsesion-pag-form {
+   margin-top: 20px;
+ }
+
+ .initsesion-pag-form input {
+   display: block;
+   width: 250px;
+   height: 25px;
+   margin: auto;
+ }
+
+ .initsesion-pag-form input:nth-child(1) {
+   margin-bottom: 20px;
+ }
+
+ .initsesion-pag-form input:nth-child(2) {
+   margin-bottom: 10px;
+ }
+
+ .initsesion-pag-form button {
+   display: block;
+   margin: auto;
+   height: 30px;
+   padding: 0px 10px 0px 10px;
+   border: 1px solid #04445c;
+ }
+
+ .initsesion-pestana img {
+   float: left;
+   margin-left: 50px;
+ }
+
+ .initsesion-registro {
+   margin-left: 50px;
+   font-size: 20px;
+ }
+
+ .initsesion-registro-link {
+   margin-top: 10px;
+   padding: 10px;
+   background-color: #04445c;
+   border: 1px solid black;
+   width: 120px;
+   text-align: center;
+   box-shadow: 0px 0px 20px #000;
+   color: white;
+ }
+
+ .initsesion-registro-link:hover {
+  background-color: #03334b;
+ }
+
 /* Registro */
 
 .registro-contenido {
@@ -1282,6 +1370,8 @@ color: white;
   width: 100px;
   font-size: 15px;
 }
+
+/* Trabaja con nosotros */
 
 /* Pac-Man */
 

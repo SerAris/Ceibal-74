@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Iniciar sesión</title>
     <link rel="stylesheet" href="css/estilo-estructura.css">
+    <link rel="stylesheet" href="css/estilo-contenido.css">
   </head>
   <body>
     <header>
@@ -39,34 +40,29 @@
         </div>
       </div>
     </header>
-    <br>
-    <section>
-      <div>
-        <h2>Iniciar sesión</h2>
-        <form class="" action="" method="post">
-          <label for="usuario">Nombre de usuario:</label><br>
-          <input type="text" id="usuario" name="Nombre de Usuario" pattern="[A-Za-z0-9]{3,12}" required>
-          <br>
-          <br>
-          <label for="contraseña">Contraseña:</label><br>
-          <input type="password" id="contraseña" name="Contraseña" pattern="[A-Za-z0-9]{8,24}" required><br>
-          <br>
-          <button type="submit" name="Iniciar sesión">Iniciar sesión</button>
-        </form>
-      </div>
-      <br>
-      <hr>
-      <br>
-      <div class="">
-        Si no tienes cuenta, puedes registrarte de manera gratuita.
-        <br>
-        <br>
-        <div class="">
-          <a href="registro.html">Crear cuenta</a>
+    <section class="initsesion-section">
+      <div class="initsesion-pestana">
+        <div class="initsesion-form-multimedia">
+          <div class="initsesion-pag-formulario">
+            <h2>Iniciar sesión</h2>
+            <form class="initsesion-pag-form" action="" method="post">
+              <input type="text" id="usuario" name="Nombre de Usuario" placeholder="Nombre de usuario" pattern="[A-Za-z0-9]{3,12}" required>
+              <input type="password" id="contraseña" name="Contraseña" placeholder="Contraseña" pattern="[A-Za-z0-9]{8,24}" required>
+              <button type="submit" name="Iniciar sesión">Iniciar sesión</button>
+            </form>
+          </div>
+          <img src="images/Inicio-Sesion350x199.png" alt="">
         </div>
       </div>
+      <div class="initsesion-registro">
+        Si no tienes cuenta, puedes registrarte de manera gratuita.
+        <a href="registro.html">
+          <div class="initsesion-registro-link">
+            Crear cuenta
+          </div>
+        </a>
+      </div>
     </section>
-    <br>
     <footer>
       <div class="footer">
         <div class="footer-arriba">
