@@ -1140,8 +1140,6 @@ color: white;
 
 /* Soporte - acerca de nosotros */
 
-/* Inicio de sesión */
-
 .acercadnos-contenido {
   margin: auto;
   width: 1100px;
@@ -1174,6 +1172,58 @@ color: white;
    text-align: justify;
    margin-top: 5px;
  }
+
+ /* Soporte - políticas de uso */
+
+ .politicas-section {
+   margin: auto;
+   width: 1100px;
+   padding: 20px;
+   background-color: rgba(3, 51, 75, 0.7);
+   box-shadow: 0px 0px 20px #000;
+ }
+
+ .politicas-section h2 {
+   font-family: monospace;
+ }
+
+ .politicas-section-contenido {
+   margin-top: 20px;
+ }
+
+ .politicas-section-menu {
+   background-color: #04445c;
+   padding: 30px 20px 30px 20px;
+   float: left;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+   box-shadow: 0px 0px 20px #000;
+ }
+
+ .politicas-section-menu a {
+   color: white
+ }
+
+.politicas-articulo {
+  margin-bottom: 20px;
+}
+
+.politicas-articulo:last-child {
+  margin-bottom: 0px;
+}
+
+.politicas-articulo h3 {
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.politicas-articulo p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+ /* Inicio de sesión */
 
 /* Registro */
 
