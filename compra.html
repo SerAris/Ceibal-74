@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Compra de juego</title>
     <link rel="stylesheet" href="css/estilo-estructura.css">
+    <link rel="stylesheet" href="css/estilo-contenido.css">
   </head>
   <body>
     <header>
@@ -39,64 +40,50 @@
         </div>
       </div>
     </header>
-    <br>
     <section>
-      <h2>Seleccione el método de compra</h2>
-      <form class="" action="index.html" method="post">
-        <label for="forma">Forma de pago:</label>
-        <select id="forma" class="" name="Forma de pago">
-          <option value="">Visa</option>
-          <option value="">MasterCard</option>
-          <option value="">American Express</option>
-          <option value="">Pay Pal</option>
-          <option value="">Discover</option>
-          <option value="">JCB</option>
-        </select>
-        <br>
-        <br>
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="Nombre" maxlength="30" required>
-        <br>
-        <br>
-        <label for="apellido">Apellido:</label><br>
-        <input type="text" id="apellido" name="Apellido" maxlength="30" required>
-        <br>
-        <br>
-        <label for="telefono">Teléfono:</label><br>
-        <input id="telefono" type="number" name="Teléfono" value="" required>
-        <br>
-        <br>
-        <label for="pais">País de residencia:</label>
-        <select id="pais" class="" name="País">
-          <option value="">Argentina</option>
-          <option value="">Bolivia</option>
-          <option value="">Brasil</option>
-          <option value="">Chile</option>
-          <option value="">Colombia</option>
-          <option value="">Ecuador</option>
-          <option value="">Paraguay</option>
-          <option value="">Perú</option>
-          <option value="">Uruguay</option>
-          <option value="">Venezuela</option>
-        </select>
-        <br>
-        <br>
-        <label for="localidad">Localidad:</label><br>
-        <input id="localidad" type="text" name="Localidad" value="" required>
-        <br>
-        <br>
-        <label for="direccion">Dirección de factuación:</label><br>
-        <input id="direccion" type="text" name="Dirección" value="" required>
-        <br>
-        <br>
-        <label for="cpostal">Código postal:</label><br>
-        <input id="cpostal" type="text" name="Código postal" value="" required>
-        <br>
-        <br>
-        <button type="submit" name="button">Comprar</button>
-      </form>
+      <div class="compra-pag-contenido">
+        <h2>Seleccione el método de compra</h2>
+        <form class="" action="index.html" method="post">
+          <div class="compra-pag-pago">
+            <label for="forma">Forma de pago:</label>
+            <select id="forma" class="" name="Forma de pago">
+              <option value="">Visa</option>
+              <option value="">MasterCard</option>
+              <option value="">American Express</option>
+              <option value="">Pay Pal</option>
+              <option value="">Discover</option>
+              <option value="">JCB</option>
+            </select>
+          </div>
+          <div class="compra-pag-personal">
+            <input type="text" id="nombre" name="Nombre" placeholder="Nombre" maxlength="30" required>
+            <input type="text" id="apellido" name="Apellido" placeholder="Apellido" maxlength="30" required>
+            <input id="telefono" type="number" name="Teléfono" placeholder="Teléfono" value="" required>
+          </div>
+          <div class="compra-pag-pais">
+            <label for="pais">País de residencia:</label>
+            <select id="pais" class="" name="País">
+              <option value="">Argentina</option>
+              <option value="">Bolivia</option>
+              <option value="">Brasil</option>
+              <option value="">Chile</option>
+              <option value="">Colombia</option>
+              <option value="">Ecuador</option>
+              <option value="">Paraguay</option>
+              <option value="">Perú</option>
+              <option value="">Uruguay</option>
+              <option value="">Venezuela</option>
+            </select>
+          </div>
+          <div class="compra-pag-personal">
+            <input id="localidad" type="text" name="Localidad" placeholder="Localidad" value="" required>
+            <input id="direccion" type="text" name="Dirección" placeholder="Dirección de facturación" value="" required>
+            <input id="cpostal" type="text" name="Código postal" placeholder="Código postal" value="" required>
+          </div>
+          <button type="submit" name="button">Comprar</button>
+        </form>
+      </div>
     </section>
-    <br>
     <footer>
       <div class="footer">
         <div class="footer-arriba">

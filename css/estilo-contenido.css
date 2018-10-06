@@ -1373,6 +1373,58 @@ color: white;
 
 /* Compra */
 
+.compra-pag-contenido {
+  margin: auto;
+  width: 850px;
+  padding: 20px 0px 20px 0px;
+  background-color: #04445c;
+  box-shadow: 0px 0px 20px #000;
+}
+
+.compra-pag-contenido h2 {
+  text-align: center;
+  font-family: monospace;
+}
+
+.compra-pag-contenido form {
+  margin-top: 30px;
+}
+
+.compra-pag-pago, .compra-pag-pais {
+  text-align: center;
+}
+
+.compra-pag-pago select, .compra-pag-pais select {
+  min-width: 100px;
+}
+
+.compra-pag-pago, .compra-pag-pais {
+  margin-top: 30px;
+}
+
+.compra-pag-personal {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.compra-pag-personal input {
+  width: 250px;
+  height: 25px;
+}
+
+.compra-pag-personal input:nth-child(1), .compra-pag-personal input:nth-child(2) {
+  margin-right: 10px;
+}
+
+.compra-pag-contenido form button {
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+  height: 30px;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid #04445c;
+}
+
 /* Trabaja con nosotros (Empleo) */
 
 .empleo-pag-contenido {
