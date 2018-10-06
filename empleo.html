@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Iniciar sesión</title>
     <link rel="stylesheet" href="css/estilo-estructura.css">
+    <link rel="stylesheet" href="css/estilo-contenido.css">
   </head>
   <body>
     <header>
@@ -39,32 +40,20 @@
         </div>
       </div>
     </header>
-    <br>
     <section>
-      <h2>Trabaja con nosotros</h2>
-      <div class="">
+      <div class="empleo-pag-contenido">
+        <h2>Trabaje con nosotros</h2>
         <form class="" action="" method="post" enctype="multipart/form-data">
-          <label for="nombre">Nombre:</label><br>
-          <input id="nombre" type="text" name="" value="" maxlength="30" required>
+          <input id="nombre" type="text" name="" placeholder="Nombre" value="" maxlength="30" required>
+          <input id="telefono" type="number" name="" placeholder="Teléfono" value="" required>
+          <input id="correo" type="email" name="" placeholder="Correo electrónico" value=""  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
           <br>
-          <br>
-          <label for="telefono">Teléfono:</label><br>
-          <input id="telefono" type="number" name="" value="" required>
-          <br>
-          <br>
-          <label for="correo">Correo electrónico:</label><br>
-          <input id="correo" type="email" name="" value=""  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
-          <br>
-          <br>
-          <label for="curriculum">CV:</label><br>
+          Su curriculum vitae:
           <input id="curriculum" type="file" name="" value="" required>
-          <br>
-          <br>
           <button type="submit" name="button">Enviar</button>
         </form>
       </div>
     </section>
-    <br>
     <footer>
       <div class="footer">
         <div class="footer-arriba">
