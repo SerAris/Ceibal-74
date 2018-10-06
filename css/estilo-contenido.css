@@ -1007,6 +1007,54 @@ color: white;
 
 /* Soporte */
 
+.soporte-contenido-superior {
+  margin: auto;
+  width: 700px;
+  height: 250px;
+}
+
+.soporte-pagina-seccion {
+  width: 300px;
+  height: 250px;
+  box-shadow: 0px 0px 20px #000;
+  background-color: #04445c;
+}
+
+.soporte-pagina-seccion:nth-child(1) {
+  float: left;
+}
+
+.soporte-pagina-seccion:nth-child(2) {
+  float: right;
+}
+
+.soporte-contenido-inferior {
+  margin: auto;
+  margin-top: 50px;
+  width: 300px;
+  height: 250px;
+}
+
+.soporte-seccion-titulo {
+  color: white;
+  font-family: monospace;
+  font-size: 19px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.soporte-contenido-inferior .soporte-seccion-titulo {
+  font-size: 17px;
+}
+
+.soporte-seccion-contenido {
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
 /* Soporte - contacto */
 
 .contacto-contenido {
@@ -1091,6 +1139,8 @@ color: white;
 }
 
 /* Soporte - acerca de nosotros */
+
+/* Inicio de sesión */
 
 /* Registro */
 
