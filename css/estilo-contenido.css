@@ -1020,11 +1020,11 @@ color: white;
   background-color: #04445c;
 }
 
-.soporte-pagina-seccion:nth-child(1) {
+.soporte-contenido-superior a:nth-child(1) {
   float: left;
 }
 
-.soporte-pagina-seccion:nth-child(2) {
+.soporte-contenido-superior a:nth-child(2) {
   float: right;
 }
 
@@ -1141,6 +1141,39 @@ color: white;
 /* Soporte - acerca de nosotros */
 
 /* Inicio de sesión */
+
+.acercadnos-contenido {
+  margin: auto;
+  width: 1100px;
+  padding: 20px;
+  background-color: rgba(3, 51, 75, 0.7);
+  box-shadow: 0px 0px 20px #000;
+}
+
+.acercadnos-contenido h2 {
+  font-family: monospace;
+}
+
+.acercadnos-apartado {
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+  padding: 0px 0px 10px 0px;
+}
+
+.acercadnos-apartado:last-child {
+  border: none;
+  padding: 0px;
+}
+
+.acercadnos-apartado h3 {
+  font-family: monospace;
+  font-size: 17px;
+}
+
+ .acercadnos-apartado-contenido {
+   text-align: justify;
+   margin-top: 5px;
+ }
 
 /* Registro */
 
