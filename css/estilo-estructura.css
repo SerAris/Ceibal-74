@@ -6,9 +6,10 @@
 body {
   background-color: #002;
   background-image: url("../images/fondo6.png");
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-size: 1365px 700px;
 	background-attachment: fixed;
+	background-position: center;
 }
 
 header {
