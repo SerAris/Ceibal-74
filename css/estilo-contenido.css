@@ -1137,12 +1137,22 @@ color: white;
 
 @media only screen and (max-width: 1300px) {
   .datos-laterales {
-    float: none;
+    float: left;
+    width: 710px;
+    margin-bottom: 50px;
+  }
+
+  .contacto-datos {
+    float: left;
     margin-top: 20px;
   }
 
+  .contacto-iframe-fondo {
+    float: right;
+  }
+
   .contacto-formulario {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 }
 
@@ -1164,7 +1174,15 @@ color: white;
 
   .datos-laterales {
     float: none;
-    margin-left: 10%
+    margin: auto;
+  }
+
+  .contacto-datos {
+    margin-top: 20px;
+  }
+
+  .contacto-iframe-fondo {
+    margin-bottom: 50px;
   }
 }
 
@@ -1173,7 +1191,15 @@ color: white;
   .datos-laterales {
     float: none;
     margin: auto;
-    margin-top: 20px;
+    width: 100%;
+  }
+
+  .contacto-datos {
+    margin-left: 10px;
+  }
+
+  .contacto-iframe-fondo {
+    margin-right: 10px;
   }
 
   .contacto-medio-principal {
@@ -1225,6 +1251,37 @@ color: white;
     float: none;
     width: 100%;
     height: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contacto-datos {
+    float: none;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contacto-iframe-fondo {
+    float: none;
+    margin: auto;
+    width: 350px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contacto-iframe-fondo {
+    float: none;
+    margin: auto;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .contacto-iframemap {
+    width: 100%;
   }
 }
 
