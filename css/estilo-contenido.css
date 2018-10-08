@@ -1853,29 +1853,42 @@ section{
 }
 
 .MuestraJuego2 h2 {
-width: 100px;
+font-size: 10px;
 float: left;
+width: 150px;
+margin-top: 20px;
 }
+
 
 .PrincipalJuego {
   background: #04445c;
   width: 500px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-left: 300px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px black;
-<<<<<<< HEAD
-}
-=======
   font-family: monospace;
 }
-
+ 
 .PrincipalJuego h3 {
   text-align: center;
   font-size: 35px;
 }
 
-.PrincipalJuego img {
-  position: unset;
+.TextoGrande {
+  font-size: 15px;
+  text-align: center;
 }
+
+.TextoChico {
+  font-size: 10px;
+  text-align: center;
+}
+
+.PrincipalJuego img {
+ margin-left: 70px;
+ border-radius: 10px;
+}
+
+
 >>>>>>> 6fe8ad998ceb2d1b9ed2c0c8f55d8ea4b4452d76
