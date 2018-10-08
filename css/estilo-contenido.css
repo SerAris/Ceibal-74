@@ -631,6 +631,79 @@ img {
   background-image: radial-gradient(#090, #070, #050);
 }
 
+.juegos-mas-juegos {
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .juegos-tienda {
+    width: 700px;
+    margin: auto;
+  }
+
+  .juego-dos, .juego-tres, .juego-cinco, .juego-seis, .juego-ocho, .juego-nueve {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+    .juegos-tienda {
+      width: 650px;
+    }
+
+    .juego-dos, .juego-tres, .juego-cinco, .juego-seis, .juego-ocho, .juego-nueve {
+      margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+  .juegos-tienda {
+    width: 450px;
+  }
+
+  .juego-dos, .juego-cinco, .juego-ocho {
+    margin-left: 50px;
+  }
+
+  .juego-tres, .juego-seis, .juego-nueve {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .juegos-tienda {
+    width: 200px;
+  }
+
+  .juego-dos, .juego-cinco, .juego-ocho {
+    display: none;
+  }
+
+  .juegos-tres-primeros, .juegos-tres-segundos, .juegos-tres-terceros {
+    height: 200px;
+  }
+
+  .juegos-tres-primeros, .juegos-tres-segundos, .juegos-tres-terceros {
+    margin-bottom: 50px;
+  }
+
+  .juegos-mas-juegos {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #04445c;
+    font-size: 18px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0px 0px 20px #000;
+    color: white;
+  }
+  .juegos-mas-juegos:hover {
+  background-color: #03334b;
+  }
+}
+
 /* Tienda - destacados - ofertas */
 
 .destacados-ofertas-section {
@@ -1692,12 +1765,16 @@ color: white;
    font-size: 20px;
  }
 
+ .initsesion-registro > div {
+   width: 120px;
+ }
+
  .initsesion-registro-link {
    margin-top: 10px;
    padding: 10px;
    background-color: #04445c;
    border: 1px solid black;
-   width: 120px;
+   width: 100%;
    text-align: center;
    box-shadow: 0px 0px 20px #000;
    color: white;
