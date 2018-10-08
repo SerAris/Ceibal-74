@@ -197,6 +197,10 @@ img {
   border-radius: 5px;
 }
 
+.novedad-indice:hover .indice-novedad-precio {
+  background-image: radial-gradient(#003666, #005686);
+}
+
 .indice-mas-novedades {
   background-color: black;
   color: white;
@@ -387,7 +391,7 @@ img {
   .oferta-uno-telefono img {
     width: 100%;
     height: auto;
-    min-width: 212px;
+    min-width: 230px;
   }
 
   .novedades-indice a:nth-last-child(4), .novedades-indice a:nth-last-child(5) {
@@ -402,16 +406,94 @@ img {
     margin-bottom: 50px;
   }
 
+  .indice-novedades-noticias {
+    width: 100%;
+  }
+
+  .indice-novedades-noticias h1 {
+  }
+
   .menu-novedades {
-    width: auto;
+    margin: auto;
+    float: none;
+    width: 270px;
+    background-color: black;
+    margin-bottom: 20px;
   }
 
-  .menu-novedades h1 {
-    width: auto;
+  .novedad-indice {
+    width: 100%;
+    height: 270px;
+    margin-bottom: 1px;
   }
 
-  .novedades-indice {
-    width: auto;
+  .novedad-indice img {
+    float: none;
+    width: 100%;
+  }
+
+  .contenido-novedades-indice {
+    float: none;
+    width: 100%;
+  }
+
+  .novedad-indice-titulo {
+    float: none;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .indice-sist-operativo {
+    display: none;
+  }
+
+  .indice-novedad-precio {
+    margin-top: 10px;
+  }
+
+  .menu-noticias {
+    margin: auto;
+    float: none;
+    width: 270px;
+    background-color: black;
+  }
+
+  .noticia-indice {
+    width: 100%;
+    height: 270px;
+    margin-bottom: 1px;
+  }
+
+  .noticia-indice img {
+    float: none;
+    width: 100%;
+  }
+
+  .contenido-noticias-indice {
+    float: none;
+    width: 100%;
+    margin-left: auto;
+  }
+
+  .noticia-indice-titulo {
+    float: none;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .fecha-noticia-titulo {
+    text-align: center;
+  }
+
+  .contenido-noticias-indice span {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .novedades-indice a:nth-last-child(3), .noticias-indice a:nth-last-child(3) {
+    display: none;
   }
 }
 
@@ -1869,7 +1951,7 @@ margin-top: 20px;
   box-shadow: 0px 0px 10px black;
   font-family: monospace;
 }
- 
+
 .PrincipalJuego h3 {
   text-align: center;
   font-size: 35px;
