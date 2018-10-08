@@ -13,11 +13,16 @@
 
 .contenido-destacados {
   width: 100%;
-  height: 360px;
+  height: 401px;
+  margin-bottom: 50px;
 }
 
 img {
   display: block;
+}
+
+.destacado-uno-tablet {
+  display: none;
 }
 
 .destacado-uno {
@@ -54,7 +59,12 @@ img {
 
 .contenido-ofertas {
   width: 100%;
-  height: 212px;
+  height: 253px;
+  margin-bottom: 50px;
+}
+
+.oferta-uno-telefono {
+  display: none;
 }
 
 .oferta-uno {
@@ -87,7 +97,6 @@ img {
   color: #fff;
   text-decoration: none;
   float: right;
-  margin-bottom: 50px;
 }
 
 .contenido-destacados > a > img {
@@ -248,6 +257,162 @@ img {
   line-height: 30px;
   font-size: 20px;
   font-family: monospace;
+}
+
+@media only screen and (max-width: 1130px) {
+  .indice-destacados-ofertas {
+    width: auto;
+  }
+
+  .contenido-destacados {
+    width: 730px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .destacado-uno, .destacado-dos {
+    margin: auto;
+  }
+
+  .destacado-dos {
+    float: right;
+  }
+
+  .destacado-tres {
+    display: none;
+  }
+
+  .contenido-ofertas {
+    width: 656px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .oferta-cuatro, .oferta-cinco {
+    display: none;
+  }
+
+  .indice-novedades-noticias {
+    width: auto;
+    margin: auto;
+    clear: both;
+    margin-left: 10px;
+    margin-right: 10px
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .indice-novedades-noticias {
+    width: 504px;;
+    margin: auto;
+  }
+
+  .menu-novedades {
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .menu-noticias {
+    float: none;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .destacado-uno, .destacado-dos {
+    display: none;
+  }
+
+  .contenido-destacados {
+    width: 550px;
+  }
+
+  .destacado-uno-tablet {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .contenido-ofertas {
+    width: 434px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .oferta-tres {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contenido-destacados {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .destacado-uno-tablet {
+    width: auto;
+    height: auto;
+  }
+
+  .destacado-uno-tablet img {
+    width: 100%;
+    height: auto;
+    min-width: 212px;
+  }
+
+  .contenido-ofertas {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .oferta-uno, .oferta-dos {
+    display: none;
+  }
+
+  .oferta-uno-telefono {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  .oferta-uno-telefono img {
+    width: 100%;
+    height: auto;
+    min-width: 212px;
+  }
+
+  .novedades-indice a:nth-last-child(4), .novedades-indice a:nth-last-child(5) {
+    display: none;
+  }
+
+  .noticias-indice a:nth-last-child(4), .noticias-indice a:nth-last-child(5) {
+    display: none;
+  }
+
+  .mas-ofertas {
+    margin-bottom: 50px;
+  }
+
+  .menu-novedades {
+    width: auto;
+  }
+
+  .menu-novedades h1 {
+    width: auto;
+  }
+
+  .novedades-indice {
+    width: auto;
+  }
 }
 
 /* Tienda */
