@@ -95,6 +95,79 @@ ul, ol {
 	display: block;
 }
 
+.logo-desplegable {
+	display: none;
+}
+
+@media only screen and (max-width: 850px) {
+	.logo-menu {
+	  height: 100px;
+	  width: 600px;
+	  margin: auto;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.icono-menu-desplegable {
+		display: block;
+		width: 40px;
+		height: 40px;
+		float: left;
+		margin-left: 20px;
+		margin-top: 30px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.logo {
+		margin: auto;
+		position: relative;
+		top: 5px;
+		float: none;
+		width: 90px;
+	}
+
+	.logo-desplegable {
+		float: left;
+		display: block;
+	}
+
+	.logo-desplegable-menu {
+		display: none;
+	}
+
+	.logo-desplegable:hover .logo-desplegable-menu {
+		display: block;
+	}
+
+	.logo-desplegable-listas {
+		clear: both;
+		background-color: #04445c;
+		border-bottom: 1px solid black;
+	}
+
+	.logo-desplegable-listas:hover {
+		background-color: #03334b;
+	}
+
+	.logo-desplegable-listas a {
+		color: white;
+		padding: 10px 10px;
+		height: 30px;
+		display: block;
+		text-align: center;
+		line-height: 30px;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.logo-menu {
+		width: 100%;
+	}
+}
+
 section {
 	width: 100%;
 	margin-top: 50px;
