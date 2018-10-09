@@ -1103,6 +1103,7 @@ color: white;
   height: 30px;
   padding: 0px 10px 0px 10px;
   border: 1px solid #04445c;
+  cursor: pointer;
 }
 
 .comunidad-registrarse {
@@ -1435,6 +1436,7 @@ color: white;
   border: 1px solid #04445c;
   width: 100px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .datos-laterales {
@@ -1753,6 +1755,7 @@ color: white;
    height: 30px;
    padding: 0px 10px 0px 10px;
    border: 1px solid #04445c;
+   cursor: pointer;
  }
 
  .initsesion-pestana img {
@@ -1804,10 +1807,6 @@ color: white;
   padding: 30px 0px 30px 0px;
 }
 
-.registro-form-campos {
-  background-color: red;
-}
-
 .registro-form-campos input:nth-child(1) {
   float: left;
   margin-left: 50px;
@@ -1840,6 +1839,79 @@ color: white;
   height: 30px;
   width: 100px;
   font-size: 15px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .registro-pagina-contenido {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .registro-contenido {
+    width: 100%;
+    margin: auto;
+  }
+
+  .registro-contenido h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .registro-formulario {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+  .registro-form-campos:nth-child(3) input {
+    margin-bottom: 10px;
+  }
+
+  .registro-formulario p {
+    margin: auto;
+    width: 400px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .registro-form-campos input:nth-child(1) {
+    margin-left: 25px;
+  }
+
+  .registro-form-campos input:nth-child(2) {
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .registro-formulario {
+    padding: 30px;
+  }
+
+  .registro-form-campos {
+    width: 100%;
+  }
+
+  .registro-form-campos input:nth-child(1) {
+    margin: auto;
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .registro-form-campos input:nth-child(2) {
+    margin: auto;
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .registro-formulario p {
+    width: 100%;
+  }
 }
 
 /* Compra */
@@ -1894,6 +1966,7 @@ color: white;
   height: 30px;
   padding: 0px 10px 0px 10px;
   border: 1px solid #04445c;
+  cursor: pointer;
 }
 
 /* Trabaja con nosotros (Empleo) */
