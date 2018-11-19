@@ -6,6 +6,7 @@ var juegos = [
     "desarrollador": "Bandai Namco Entertainment Inc.",
     "valoracion": 7.6,
     "categorias": ["Arcade", "Retro"],
+    "descuento": 0,
   },
   {
     "nombre": "Assassin's Creed Odyssey",
@@ -14,6 +15,7 @@ var juegos = [
     "desarrollador": "ubisoft",
     "valoracion": 8.2,
     "categorias": ["Acción", "Aventuras", "Histórico"],
+    "descuento": 0,
   },
   {
     "nombre": "Pro Evolution Soccer 2019",
@@ -22,6 +24,7 @@ var juegos = [
     "desarrollador": "Konami",
     "valoracion": 7.9,
     "categorias": ["Deportes", "Fútbol"],
+    "descuento": 10,
   },
   {
     "nombre": "Fallout 76",
@@ -30,6 +33,7 @@ var juegos = [
     "desarrollador": "Bethesda Game Studios",
     "valoracion": 8.0,
     "categorias": ["Acción", "Aventuras", "Rol"],
+    "descuento": 0,
   },
   {
     "nombre": "Red Dead Redemption II",
@@ -38,6 +42,7 @@ var juegos = [
     "desarrollador": "Rockstar Studios",
     "valoracion": 8.6,
     "categorias": ["Acción", "Aventuras"],
+    "descuento": 5,
   },
   {
     "nombre": "Spider-Man",
@@ -46,6 +51,7 @@ var juegos = [
     "desarrollador": "Insomniac Games",
     "valoracion": 7.9,
     "categorias": ["Acción", "Superhéores"],
+    "descuento": 0,
   },
   {
     "nombre": "Far Cry 5",
@@ -54,6 +60,7 @@ var juegos = [
     "desarrollador": "Ubisoft",
     "valoracion": 7.7,
     "categorias": ["Acción", "Shooter"],
+    "descuento": 10,
   },
   {
     "nombre": "God of War",
@@ -62,6 +69,7 @@ var juegos = [
     "desarrollador": "SCE Santa Monica Studio",
     "valoracion": 8.0,
     "categorias": ["Acción", "Aventuras"],
+    "descuento": 0,
   },
   {
     "nombre": "Shadow of the Tomb Raider",
@@ -70,5 +78,6 @@ var juegos = [
     "desarrollador": "Eidos Montréal",
     "valoracion": 8.1,
     "categorias": ["Acción", "Aventuras"],
+    "descuento": 5,
   }
 ]
