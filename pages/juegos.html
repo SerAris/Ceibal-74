@@ -53,13 +53,45 @@
       <div class="juegos-tienda">
         <div id="caja-compra">
           <div class="cerrar-ventana-compra" onclick="cerrarVentana()"><b>x</b></div>
-          <div class="">Juego: <span id="nombre-compra"></span></div>
-          <div class="">Precio: US$<span id="precio-compra"></span></div>
-          <div class="">Descuento: <span id="descuento-compra"></span>%</div>
-          <div class="">Cantidad a comprar: <input type="number" name="quantity" min="1" max="10"></div>
-          <div class="">Nombre: </div>
-          <div class="">Correo electrónico: </div>
-          <div class="">Método de pago: </div>
+          <form class="" action="index.html" method="post">
+            <div class="">Comprar <span id="nombre-compra"></span></div>
+            <div class="">Precio: US$<span id="precio-compra"></span></div>
+            <div class="">Descuento: <span id="descuento-compra"></span>%</div>
+            <div class="">
+              <label for="">Formato: </label><select class="" name="" required>
+                <option value="">Seleccionar formato</option>
+                <option value="digital">Digital</option>
+                <option value="cd">Físico (CD)</option>
+                <option value="dvd">Físico (DVD)</option>
+              </select>
+            </div>
+            <div class="">
+              <label for="cantidad-compra">Cantidad a comprar: <input id="cantidad-compra" type="number" name="quantity" min="1" max="10" required> (Máx. 10 unidades)</label>
+            </div>
+            <div class="">Nombre: <input type="text" name="" value="" required></div>
+            <div class="">Correo electrónico: <input type="text" name="" value="" required></div>
+            <div class="">Dirección: <input type="text" name="" value="" required></div>
+            <div class="">
+              <label for="">Método de envío: </label><select class="" name="" required>
+                <option value="">Seleccionar método</option>
+                <option value="comun">Común (0.5%)</option>
+                <option value="especial">Especial (2%)</option>
+                <option value="premium">Premium (5%)</option>
+              </select>
+            </div>
+            <div class="">
+              <label for="">Medio de pago: </label><select class="" name="" required>
+                <option value="">Seleccionar medio</option>
+                <option value="medio1">Medio 1</option>
+                <option value="medio2">Medio 2</option>
+                <option value="medio3">Medio 3</option>
+                <option value="medio4">Medio 4</option>
+                <option value="medio5">Medio 5</option>
+                <option value="medio6">Medio 6</option>
+              </select>
+            </div>
+            <input type="submit" name="confirmar-compra" value="Comprar">
+          </form>
         </div>
         <h1 class="h1-juegos-tienda">Todos los juegos</h1>
         <div class="juegos-tres-primeros">
