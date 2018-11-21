@@ -52,206 +52,201 @@
     <section>
       <div class="juegos-tienda">
         <div id="caja-compra">
-          <div class="">X</div>
-          Juego: <span id="nombre-compra"></span><br>
-          Precio: <span id="precio-compra"></span><br>
-          Método de pago:<br>
+          <div class="cerrar-ventana-compra" onclick="cerrarVentana()"><b>x</b></div>
+          <div class="">Juego: <span id="nombre-compra"></span></div>
+          <div class="">Precio: US$<span id="precio-compra"></span></div>
+          <div class="">Descuento: <span id="descuento-compra"></span>%</div>
+          <div class="">Cantidad a comprar: <input type="number" name="quantity" min="1" max="10"></div>
+          <div class="">Nombre: </div>
+          <div class="">Correo electrónico: </div>
+          <div class="">Método de pago: </div>
         </div>
         <h1 class="h1-juegos-tienda">Todos los juegos</h1>
         <div class="juegos-tres-primeros">
-          <a href="pacman.html">
-            <div class="juego-uno" id="juego-tienda">
-              <div class="">
-                <img src="../images\Pacman200x80.png" alt="Pacman">
+          <div class="juego-uno" id="juego-tienda">
+            <a href="pacman.html">
+            <div class="">
+              <img src="../images\Pacman200x80.png" alt="Pacman">
+            </div>
+            <div class="juego-tienda-contenido">
+              <div class="titulo-juego-tienda"><b id="tituloj1">Pac-Man</b></div></a>
+              <div class="tienda-juegos-sistemas">
+                <img src="../images/Windows-Logo.png" alt="Windows-Logo">
+                <img src="../images/Apple-Logo.png" alt="Apple-Logo">
               </div>
-              <div class="juego-tienda-contenido">
-                <div class="titulo-juego-tienda"><b id="tituloj1">Pac-Man</b></div>
-                <div class="tienda-juegos-sistemas">
-                  <img src="../images/Windows-Logo.png" alt="Windows-Logo">
-                  <img src="../images/Apple-Logo.png" alt="Apple-Logo">
-                </div>
-                <div class="tienda-juegos-categorias" id="categj1">
-                  Arcade, Retro
-                </div>
-                <div class="">
-                  <div class="tienda-juegos-descuento" id="bot-desc0">-<span id="descuj1"></span>%</div>
-                  <div class="tienda-juegos-precio" id="0" onclick="compra(this)">US$<span id="precioj1"></div>
-                </div>
+              <div class="tienda-juegos-categorias" id="categj1">
+                Arcade, Retro
+              </div>
+              <div class="">
+                <div class="tienda-juegos-descuento" id="bot-desc0">-<span id="descuj1"></span>%</div>
+                <div class="tienda-juegos-precio" id="0" onclick="compra(this)">US$<span id="precioj1"></div>
               </div>
             </div>
-          </a>
-          <a href="#">
-            <div class="juego-dos" id="juego-tienda">
-              <div class="">
-                <img src="../images\ACOdyssey200x80.jpg" alt="Assassin's-Creed-Odyssey">
+          </div>
+          <div class="juego-dos" id="juego-tienda">
+            <a href="#">
+            <div class="">
+              <img src="../images\ACOdyssey200x80.jpg" alt="Assassin's-Creed-Odyssey">
+            </div>
+            <div class="juego-tienda-contenido">
+              <div class="titulo-juego-tienda"><b id="tituloj2">Assassin's Creed® Odyssey</b></div></a>
+              <div class="tienda-juegos-sistemas">
+                <img src="../images/Windows-Logo.png" alt="Windows-Logo">
+                <img src="../images/Apple-Logo.png" alt="Apple-Logo">
               </div>
-              <div class="juego-tienda-contenido">
-                <div class="titulo-juego-tienda"><b id="tituloj2">Assassin's Creed® Odyssey</b></div>
-                <div class="tienda-juegos-sistemas">
-                  <img src="../images/Windows-Logo.png" alt="Windows-Logo">
-                  <img src="../images/Apple-Logo.png" alt="Apple-Logo">
-                </div>
-                <div class="tienda-juegos-categorias" id="categj2">
-                  Acción, Aventura, Histórico
-                </div>
-                <div class="">
-                  <div class="tienda-juegos-descuento" id="bot-desc1">-<span id="descuj2"></span>%</div>
-                  <div class="tienda-juegos-precio" id="1" onclick="compra(this)">US$<span id="precioj2"></div>
-                </div>
+              <div class="tienda-juegos-categorias" id="categj2">
+                Acción, Aventura, Histórico
+              </div>
+              <div class="">
+                <div class="tienda-juegos-descuento" id="bot-desc1">-<span id="descuj2"></span>%</div>
+                <div class="tienda-juegos-precio" id="1" onclick="compra(this)">US$<span id="precioj2"></div>
               </div>
             </div>
-          </a>
-          <a href="#">
-            <div class="juego-tres" id="juego-tienda">
-              <div class="">
-                <img src="../images\PES19200x80.jpg" alt="Pro-Evolution-Soccer-2019">
+          </div>
+          <div class="juego-tres" id="juego-tienda">
+            <a href="#">
+            <div class="">
+              <img src="../images\PES19200x80.jpg" alt="Pro-Evolution-Soccer-2019">
+            </div>
+            <div class="juego-tienda-contenido">
+              <div class="titulo-juego-tienda"><b id="tituloj3">Pro Evolution Soccer 2019</b></div></a>
+              <div class="tienda-juegos-sistemas">
+                <img src="../images/Windows-Logo.png" alt="Windows-Logo">
+                <img src="../images/Apple-Logo.png" alt="Apple-Logo">
               </div>
-              <div class="juego-tienda-contenido">
-                <div class="titulo-juego-tienda"><b id="tituloj3">Pro Evolution Soccer 2019</b></div>
-                <div class="tienda-juegos-sistemas">
-                  <img src="../images/Windows-Logo.png" alt="Windows-Logo">
-                  <img src="../images/Apple-Logo.png" alt="Apple-Logo">
-                </div>
-                <div class="tienda-juegos-categorias" id="categj3">
-                  Deportes, Fútbol
-                </div>
-                <div class="">
-                  <div class="tienda-juegos-descuento" id="bot-desc2">-<span id="descuj3"></span>%</div>
-                  <div class="tienda-juegos-precio" id="2" onclick="compra(this)">US$<span id="precioj3"></span></div>
-                </div>
+              <div class="tienda-juegos-categorias" id="categj3">
+                Deportes, Fútbol
+              </div>
+              <div class="">
+                <div class="tienda-juegos-descuento" id="bot-desc2">-<span id="descuj3"></span>%</div>
+                <div class="tienda-juegos-precio" id="2" onclick="compra(this)">US$<span id="precioj3"></span></div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <div class="juegos-tres-segundos">
-          <a href="#">
-            <div class="juego-cuatro" id="juego-tienda">
-              <div class="">
-                <img src="../images\Fallout76200x80.jpg" alt="Fallout-76">
+          <div class="juego-cuatro" id="juego-tienda">
+            <a href="#">
+            <div class="">
+              <img src="../images\Fallout76200x80.jpg" alt="Fallout-76">
+            </div>
+            <div class="juego-tienda-contenido">
+              <div class="titulo-juego-tienda"><b id="tituloj4">Fallout 76</b></div></a>
+              <div class="tienda-juegos-sistemas">
+                <img src="../images/Windows-Logo.png" alt="Windows-Logo">
+                <img src="../images/Apple-Logo.png" alt="Apple-Logo">
               </div>
-              <div class="juego-tienda-contenido">
-                <div class="titulo-juego-tienda"><b id="tituloj4">Fallout 76</b></div>
-                <div class="tienda-juegos-sistemas">
-                  <img src="../images/Windows-Logo.png" alt="Windows-Logo">
-                  <img src="../images/Apple-Logo.png" alt="Apple-Logo">
-                </div>
-                <div class="tienda-juegos-categorias" id="categj4">
-                  Acción, Aventura, Rol
-                </div>
-                <div class="">
-                  <div class="tienda-juegos-descuento" id="bot-desc3">-<span id="descuj4"></span>%</div>
-                  <div class="tienda-juegos-precio" id="3" onclick="compra(this)">US$<span id="precioj4"></span></div>
-                </div>
+              <div class="tienda-juegos-categorias" id="categj4">
+                Acción, Aventura, Rol
+              </div>
+              <div class="">
+                <div class="tienda-juegos-descuento" id="bot-desc3">-<span id="descuj4"></span>%</div>
+                <div class="tienda-juegos-precio" id="3" onclick="compra(this)">US$<span id="precioj4"></span></div>
               </div>
             </div>
-          </a>
-          <a href="#">
-            <div class="juego-cinco" id="juego-tienda">
-              <div class="">
-                <img src="../images\RedDeadRedemption2200x80.jpg" alt="Red-Dead-Redemption-II">
+          </div>
+          <div class="juego-cinco" id="juego-tienda">
+            <a href="#">
+            <div class="">
+              <img src="../images\RedDeadRedemption2200x80.jpg" alt="Red-Dead-Redemption-II">
+            </div>
+            <div class="juego-tienda-contenido">
+              <div class="titulo-juego-tienda"><b id="tituloj5">Red Dead Redemption II</b></div></a>
+              <div class="tienda-juegos-sistemas">
+                <img src="../images/Windows-Logo.png" alt="Windows-Logo">
+                <img src="../images/Apple-Logo.png" alt="Apple-Logo">
               </div>
-              <div class="juego-tienda-contenido">
-                <div class="titulo-juego-tienda"><b id="tituloj5">Red Dead Redemption II</b></div>
-                <div class="tienda-juegos-sistemas">
-                  <img src="../images/Windows-Logo.png" alt="Windows-Logo">
-                  <img src="../images/Apple-Logo.png" alt="Apple-Logo">
-                </div>
-                <div class="tienda-juegos-categorias" id="categj5">
-                  Acción, Aventura
-                </div>
-                <div class="">
-                  <div class="tienda-juegos-descuento" id="bot-desc4">-<span id="descuj5"></span>%</div>
-                  <div class="tienda-juegos-precio" id="4" onclick="compra(this)">US$<span id="precioj5"></div>
-                </div>
+              <div class="tienda-juegos-categorias" id="categj5">
+                Acción, Aventura
+              </div>
+              <div class="">
+                <div class="tienda-juegos-descuento" id="bot-desc4">-<span id="descuj5"></span>%</div>
+                <div class="tienda-juegos-precio" id="4" onclick="compra(this)">US$<span id="precioj5"></div>
               </div>
             </div>
-          </a>
-          <a href="#">
-            <div class="juego-seis" id="juego-tienda">
-              <div class="">
-                <img src="../images\Spiderman200x80.png" alt="Spiderman">
+          </div>
+          <div class="juego-seis" id="juego-tienda">
+            <a href="#">
+            <div class="">
+              <img src="../images\Spiderman200x80.png" alt="Spiderman">
+            </div>
+            <div class="juego-tienda-contenido">
+              <div class="titulo-juego-tienda"><b id="tituloj6">Spiderman</b></div></a>
+              <div class="tienda-juegos-sistemas">
+                <img src="../images/Windows-Logo.png" alt="Windows-Logo">
+                <img src="../images/Apple-Logo.png" alt="Apple-Logo">
               </div>
-              <div class="juego-tienda-contenido">
-                <div class="titulo-juego-tienda"><b id="tituloj6">Spiderman</b></div>
-                <div class="tienda-juegos-sistemas">
-                  <img src="../images/Windows-Logo.png" alt="Windows-Logo">
-                  <img src="../images/Apple-Logo.png" alt="Apple-Logo">
-                </div>
-                <div class="tienda-juegos-categorias" id="categj6">
-                  Acción, Superhéroes
-                </div>
-                <div class="">
-                  <div class="tienda-juegos-descuento" id="bot-desc5">-<span id="descuj6"></span>%</div>
-                  <div class="tienda-juegos-precio" id="5" onclick="compra(this)">US$<span id="precioj6"></div>
-                </div>
+              <div class="tienda-juegos-categorias" id="categj6">
+                Acción, Superhéroes
+              </div>
+              <div class="">
+                <div class="tienda-juegos-descuento" id="bot-desc5">-<span id="descuj6"></span>%</div>
+                <div class="tienda-juegos-precio" id="5" onclick="compra(this)">US$<span id="precioj6"></div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <div class="juegos-tres-terceros">
-          <a href="#">
-            <div class="juego-siete" id="juego-tienda">
-              <div class="">
-                <img src="../images\FarCry5200x80.jpg" alt="Far-Cry-5">
+          <div class="juego-siete" id="juego-tienda">
+            <a href="#">
+            <div class="">
+              <img src="../images\FarCry5200x80.jpg" alt="Far-Cry-5">
+            </div>
+            <div class="juego-tienda-contenido">
+              <div class="titulo-juego-tienda"><b id="tituloj7">Far Cry 5</b></div></a>
+              <div class="tienda-juegos-sistemas">
+                <img src="../images/Windows-Logo.png" alt="Windows-Logo">
+                <img src="../images/Apple-Logo.png" alt="Apple-Logo">
               </div>
-              <div class="juego-tienda-contenido">
-                <div class="titulo-juego-tienda"><b id="tituloj7">Far Cry 5</b></div>
-                <div class="tienda-juegos-sistemas">
-                  <img src="../images/Windows-Logo.png" alt="Windows-Logo">
-                  <img src="../images/Apple-Logo.png" alt="Apple-Logo">
-                </div>
-                <div class="tienda-juegos-categorias" id="categj7">
-                  Acción, Shooter
-                </div>
-                <div class="">
-                  <div class="tienda-juegos-descuento" id="bot-desc6">-<span id="descuj7"></span>%</div>
-                  <div class="tienda-juegos-precio" id="6" onclick="compra(this)">US$<span id="precioj7"></div>
-                </div>
+              <div class="tienda-juegos-categorias" id="categj7">
+                Acción, Shooter
+              </div>
+              <div class="">
+                <div class="tienda-juegos-descuento" id="bot-desc6">-<span id="descuj7"></span>%</div>
+                <div class="tienda-juegos-precio" id="6" onclick="compra(this)">US$<span id="precioj7"></div>
               </div>
             </div>
-          </a>
-          <a href="#">
-            <div class="juego-ocho" id="juego-tienda">
-              <div class="">
-                <img src="../images\GodOfWar200x80.jpg" alt="God-of-War">
+          </div>
+          <div class="juego-ocho" id="juego-tienda">
+            <a href="#">
+            <div class="">
+              <img src="../images\GodOfWar200x80.jpg" alt="God-of-War">
+            </div>
+            <div class="juego-tienda-contenido">
+              <div class="titulo-juego-tienda"><b id="tituloj8">God of War</b></div></a>
+              <div class="tienda-juegos-sistemas">
+                <img src="../images/Windows-Logo.png" alt="Windows-Logo">
+                <img src="../images/Apple-Logo.png" alt="Apple-Logo">
               </div>
-              <div class="juego-tienda-contenido">
-                <div class="titulo-juego-tienda"><b id="tituloj8">God of War</b></div>
-                <div class="tienda-juegos-sistemas">
-                  <img src="../images/Windows-Logo.png" alt="Windows-Logo">
-                  <img src="../images/Apple-Logo.png" alt="Apple-Logo">
-                </div>
-                <div class="tienda-juegos-categorias" id="categj8">
-                  Acción, Aventura
-                </div>
-                <div class="">
-                  <div class="tienda-juegos-descuento" id="bot-desc7">-<span id="descuj8"></span>%</div>
-                  <div class="tienda-juegos-precio" id="7" onclick="compra(this)">US$<span id="precioj8"></div>
-                </div>
+              <div class="tienda-juegos-categorias" id="categj8">
+                Acción, Aventura
+              </div>
+              <div class="">
+                <div class="tienda-juegos-descuento" id="bot-desc7">-<span id="descuj8"></span>%</div>
+                <div class="tienda-juegos-precio" id="7" onclick="compra(this)">US$<span id="precioj8"></div>
               </div>
             </div>
-          </a>
-          <a href="#">
-            <div class="juego-nueve" id="juego-tienda">
-              <div class="">
-                <img src="../images\SOTTombRaider200x80.jpg" alt="Shadow-of-the-Tomb-Raider">
+          </div>
+          <div class="juego-nueve" id="juego-tienda">
+            <a href="#">
+            <div class="">
+              <img src="../images\SOTTombRaider200x80.jpg" alt="Shadow-of-the-Tomb-Raider">
+            </div>
+            <div class="juego-tienda-contenido">
+              <div class="titulo-juego-tienda"><b id="tituloj9">Shadow of the Tomb Raider</b></div></a>
+              <div class="tienda-juegos-sistemas">
+                <img src="../images/Windows-Logo.png" alt="Windows-Logo">
+                <img src="../images/Apple-Logo.png" alt="Apple-Logo">
               </div>
-              <div class="juego-tienda-contenido">
-                <div class="titulo-juego-tienda"><b id="tituloj9">Shadow of the Tomb Raider</b></div>
-                <div class="tienda-juegos-sistemas">
-                  <img src="../images/Windows-Logo.png" alt="Windows-Logo">
-                  <img src="../images/Apple-Logo.png" alt="Apple-Logo">
-                </div>
-                <div class="tienda-juegos-categorias" id="categj9">
-                  Acción, Aventura
-                </div>
-                <div class="">
-                  <div class="tienda-juegos-descuento" id="bot-desc8">-<span id="descuj9"></span>%</div>
-                  <div class="tienda-juegos-precio" id="8" onclick="compra(this)">US$<span id="precioj9"></div>
-                </div>
+              <div class="tienda-juegos-categorias" id="categj9">
+                Acción, Aventura
+              </div>
+              <div class="">
+                <div class="tienda-juegos-descuento" id="bot-desc8">-<span id="descuj9"></span>%</div>
+                <div class="tienda-juegos-precio" id="8" onclick="compra(this)">US$<span id="precioj9"></div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <a href="#">
           <div class="juegos-mas-juegos">
