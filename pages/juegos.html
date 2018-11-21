@@ -51,6 +51,12 @@
     </header>
     <section>
       <div class="juegos-tienda">
+        <div id="caja-compra">
+          <div class="">X</div>
+          Juego: <span id="nombre-compra"></span><br>
+          Precio: <span id="precio-compra"></span><br>
+          Método de pago:<br>
+        </div>
         <h1 class="h1-juegos-tienda">Todos los juegos</h1>
         <div class="juegos-tres-primeros">
           <a href="pacman.html">
@@ -69,7 +75,7 @@
                 </div>
                 <div class="">
                   <div class="tienda-juegos-descuento" id="bot-desc0">-<span id="descuj1"></span>%</div>
-                  <div class="tienda-juegos-precio">US$<span id="precioj1"></div>
+                  <div class="tienda-juegos-precio" id="0" onclick="compra(this)">US$<span id="precioj1"></div>
                 </div>
               </div>
             </div>
@@ -90,7 +96,7 @@
                 </div>
                 <div class="">
                   <div class="tienda-juegos-descuento" id="bot-desc1">-<span id="descuj2"></span>%</div>
-                  <div class="tienda-juegos-precio">US$<span id="precioj2"></div>
+                  <div class="tienda-juegos-precio" id="1" onclick="compra(this)">US$<span id="precioj2"></div>
                 </div>
               </div>
             </div>
@@ -111,7 +117,7 @@
                 </div>
                 <div class="">
                   <div class="tienda-juegos-descuento" id="bot-desc2">-<span id="descuj3"></span>%</div>
-                  <div class="tienda-juegos-precio">US$<span id="precioj3"></span></div>
+                  <div class="tienda-juegos-precio" id="2" onclick="compra(this)">US$<span id="precioj3"></span></div>
                 </div>
               </div>
             </div>
@@ -134,7 +140,7 @@
                 </div>
                 <div class="">
                   <div class="tienda-juegos-descuento" id="bot-desc3">-<span id="descuj4"></span>%</div>
-                  <div class="tienda-juegos-precio">US$<span id="precioj4"></span></div>
+                  <div class="tienda-juegos-precio" id="3" onclick="compra(this)">US$<span id="precioj4"></span></div>
                 </div>
               </div>
             </div>
@@ -155,7 +161,7 @@
                 </div>
                 <div class="">
                   <div class="tienda-juegos-descuento" id="bot-desc4">-<span id="descuj5"></span>%</div>
-                  <div class="tienda-juegos-precio">US$<span id="precioj5"></div>
+                  <div class="tienda-juegos-precio" id="4" onclick="compra(this)">US$<span id="precioj5"></div>
                 </div>
               </div>
             </div>
@@ -176,7 +182,7 @@
                 </div>
                 <div class="">
                   <div class="tienda-juegos-descuento" id="bot-desc5">-<span id="descuj6"></span>%</div>
-                  <div class="tienda-juegos-precio">US$<span id="precioj6"></div>
+                  <div class="tienda-juegos-precio" id="5" onclick="compra(this)">US$<span id="precioj6"></div>
                 </div>
               </div>
             </div>
@@ -199,7 +205,7 @@
                 </div>
                 <div class="">
                   <div class="tienda-juegos-descuento" id="bot-desc6">-<span id="descuj7"></span>%</div>
-                  <div class="tienda-juegos-precio">US$<span id="precioj7"></div>
+                  <div class="tienda-juegos-precio" id="6" onclick="compra(this)">US$<span id="precioj7"></div>
                 </div>
               </div>
             </div>
@@ -220,7 +226,7 @@
                 </div>
                 <div class="">
                   <div class="tienda-juegos-descuento" id="bot-desc7">-<span id="descuj8"></span>%</div>
-                  <div class="tienda-juegos-precio">US$<span id="precioj8"></div>
+                  <div class="tienda-juegos-precio" id="7" onclick="compra(this)">US$<span id="precioj8"></div>
                 </div>
               </div>
             </div>
@@ -241,7 +247,7 @@
                 </div>
                 <div class="">
                   <div class="tienda-juegos-descuento" id="bot-desc8">-<span id="descuj9"></span>%</div>
-                  <div class="tienda-juegos-precio">US$<span id="precioj9"></div>
+                  <div class="tienda-juegos-precio" id="8" onclick="compra(this)">US$<span id="precioj9"></div>
                 </div>
               </div>
             </div>
@@ -267,5 +273,6 @@
     </footer>
     <script type="text/javascript" src="../javascript/datos-juegos.js"></script>
     <script type="text/javascript" src="../javascript/pag-juegos.js"></script>
+    <script type="text/javascript" src="../javascript/compra-carrito.js"></script>
   </body>
 </html>

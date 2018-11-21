@@ -539,6 +539,18 @@ img {
 
 /* Tienda - juegos */
 
+#caja-compra {
+  width: 600px;
+  height: 500px;
+  background-color: #04445c;
+  display: none;
+  box-shadow: 0px 0px 20px #000;;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .juegos-tienda {
   width: 800px;
   margin: auto;
