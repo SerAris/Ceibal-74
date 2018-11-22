@@ -551,6 +551,10 @@ img {
   transform: translate(-50%, -50%);
 }
 
+#ventana-descuento {
+  display: none;
+}
+
 .cerrar-ventana-compra {
   width: 20px;
   height: 20px;
