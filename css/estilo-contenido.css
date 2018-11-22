@@ -2052,15 +2052,17 @@ color: white;
 /* Pac-Man */
 
 .info-juego1{
-  
+  font-family: monospace;
 }
 
 .info-juego2{
   margin-top: 150px;
+  font-family: monospace;
 }
 .info-juego3{
   margin-top: 50px;
   background: #000;
+  font-family: monospace;
 }
 .info-dentro1{
   float: right;
@@ -2071,13 +2073,13 @@ color: white;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
 }
-.img1{
+.img-1{
   width: 11%;
   float: left;
   margin-left: 200px;
 
 }
-.img2{
+.img-2{
   float: right;
   width: 11%;
   margin-right: 170px;
@@ -2197,9 +2199,7 @@ table.tableGame td {
   padding: 7px;
   color: white;
 }
-section{
+section {
   color: white;
-  font-family: monospace;
-}
 
->>>>>>> 6fe8ad998ceb2d1b9ed2c0c8f55d8ea4b4452d76
+}
