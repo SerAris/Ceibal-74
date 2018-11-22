@@ -2051,10 +2051,145 @@ color: white;
 
 /* Pac-Man */
 
+.info-juego1{
+  
+}
+
+.info-juego2{
+  margin-top: 150px;
+}
+.info-juego3{
+  margin-top: 50px;
+  background: #000;
+}
+.info-dentro1{
+  float: right;
+  background: #04445c;
+  width: 35%;
+  margin-left: 50px;
+  margin-right: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+.img1{
+  width: 11%;
+  float: left;
+  margin-left: 200px;
+
+}
+.img2{
+  float: right;
+  width: 11%;
+  margin-right: 170px;
+}
+.info-dentro1 img{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom:10px;  
+}
+.info-dentro1 p{
+  margin-left:10px;
+}
+.info-dentro1 a{
+  margin-top:20px;
+  margin-left: 10px;
+  margin-bottom:10px;
+}
+
+.info-dentro2 iframe{
+  width: 50%;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.info-dentro2 img{
+  border-radius: 10px;
+}
+.info-dentro4{
+  float: right;
+  background: #04445c;
+  width: 35%;
+  margin-left: 50px;
+  margin-right: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  font-size: 15px;
+}
+.info-dentro4 h2{
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 65%;
+}
+.info-dentro4 a{
+  background-color: #02223b;
+  width: 15%;
+  border: 1px solid #006797;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.info-dentro5{
+  margin-left: 50px;
+}
+.info-dentro6{
+  float: left;
+  margin-left: 50px;
+}
+.info-dentro6 h3{
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 50px;
+}
+.info-dentro6 b{
+  line-height: 45px;
+}
+.info-dentro7{
+  float: right;
+  background: #04445c;
+  width: 35%;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  margin-right: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  font-size: 15px;
+}
+.info-dentro7 h3 {
+  margin-top:10px;
+  margin-left:20px;
+  margin-bottom: 10px;
+}
+.info-dentro7 b {
+  margin-top:10px;
+  margin-left:20px;
+  margin-bottom: 10px;
+}
+.info-dentro7 img {
+  margin-top:10px;
+  margin-left:20px;
+  margin-bottom: 10px;
+}
+.info-subdentro1{
+  float: left;
+  width: 40%;
+}
+.info-subdentro2{
+  margin-left: 10px;
+  float: right;
+  width: 45%;
+}
+
 .tableGame {
-  margin: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: black;
   padding: 5px 3px 3px 3px;
+  text-align: center;
 }
 
 table.tableGame td {
@@ -2064,107 +2199,7 @@ table.tableGame td {
 }
 section{
   color: white;
-}
-
-.PrincipalGame {
-  margin: auto;
-}
-
-.infoJuego {
-  background: #04445c;
-  box-shadow: 0px 0px 10px black;
-  font-family: monospace;
-  width: 650px;
-  float: left;
-  margin-right: 50px;
-  margin-left: 10px;
-  border-radius: 5px;
-}
-
-.infoJuego1 {
- background: #04445c;
- box-shadow: 0px 0px 10px black;
- font-family: monospace;
- overflow: scroll;
- width: 360px;
- margin-right: 10px;
- height: 500px;
- border-radius: 5px;
-}
-
-.infoJuego iframe {
-  width: 325px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  float: left;
-  border-radius: 5px;
-}
-
-.infoJuego img {
-  width: 130px;
-  float: right;
-  margin-top: 5px;
-  margin-right: 5px;
-  border-radius: 5px;
-}
-
-.MuestraJuego2 {
-  float: right;
-  width: 300px;
-}
-
-.MuestraJuego2 a {
-  background-color: #02223b;
-  width: 75px;
-  height: 35px;
-  margin-top: 10px;
-  margin-right: 50px;
-  border: 1px solid #006797;
-  border-radius: 5px;
-  text-align: center;
-  line-height: 35px;
-  color: white;
-  float: left;
-}
-
-.MuestraJuego2 h2 {
-font-size: 10px;
-float: left;
-width: 150px;
-margin-top: 20px;
-}
-
-
-.PrincipalJuego {
-  background: #04445c;
-  width: 500px;
-  margin-bottom: 50px;
-  margin-left: 300px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px black;
   font-family: monospace;
 }
-
-.PrincipalJuego h3 {
-  text-align: center;
-  font-size: 35px;
-}
-
-.TextoGrande {
-  font-size: 15px;
-  text-align: center;
-}
-
-.TextoChico {
-  font-size: 10px;
-  text-align: center;
-}
-
-.PrincipalJuego img {
- margin-left: 70px;
- border-radius: 10px;
-}
-
 
 >>>>>>> 6fe8ad998ceb2d1b9ed2c0c8f55d8ea4b4452d76
