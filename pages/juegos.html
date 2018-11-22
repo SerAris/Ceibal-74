@@ -60,13 +60,13 @@
             <div class="">
               <label for="">Formato: </label><select class="" name="" required>
                 <option value="">Seleccionar formato</option>
-                <option value="digital">Digital</option>
-                <option value="cd">Físico (CD)</option>
-                <option value="dvd">Físico (DVD)</option>
+                <option id="digital" value="digital">Digital</option>
+                <option id="cd" value="cd">Físico (CD)</option>
+                <option id="dvd" value="dvd">Físico (DVD)</option>
               </select>
             </div>
-            <div class="">
-              <label for="cantidad-compra">Cantidad a comprar: <input id="cantidad-compra" type="number" name="quantity" min="1" max="10" required> (Máx. 10 unidades)</label>
+            <div id="cantidadCompra">
+              <label for="cantidad-compra">Cantidad a comprar: <input class="cantidadAComprar" id="cantidad-compra" type="number" name="quantity" min="1" max="10" required> (Máx. 10 unidades)</label>
             </div>
             <div class="">Nombre: <input type="text" name="" value="" required></div>
             <div class="">Correo electrónico: <input type="text" name="" value="" required></div>
@@ -92,7 +92,14 @@
             </div>
             <input type="submit" name="confirmar-compra" value="Comprar">
           </form>
-          <p id="p-ventana">DASDASDSADASD</p>
+          <p id="p-ventana">
+          Precio a pagar
+          <div class="">
+            <div class="">Precio del juego: <span id="precioJuego"></span></div>
+            <div class="">Precio<span id="precioFinalCuenta"> final</span> con IVA (22%): <span id="precioIVA"></span></div>
+            <div id="descuentoFinal" class="">Precio final con descuento: <span id="precioDesc"></span></div>
+          </div>
+          </p>
         </div>
         <h1 class="h1-juegos-tienda">Todos los juegos</h1>
         <div class="juegos-tres-primeros">

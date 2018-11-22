@@ -555,6 +555,14 @@ img {
   display: none;
 }
 
+#descuentoFinal {
+  display: none;
+}
+
+#precioFinalCuenta {
+  display: none;
+}
+
 .cerrar-ventana-compra {
   width: 20px;
   height: 20px;
