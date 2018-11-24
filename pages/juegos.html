@@ -52,54 +52,59 @@
     <section>
       <div class="juegos-tienda">
         <div id="caja-compra">
-          <div class="cerrar-ventana-compra" onclick="cerrarVentana()"><b>x</b></div>
-          <form class="" action="index.html" method="post">
-            <div class="">Comprar <span id="nombre-compra"></span></div>
-            <div class="">Precio: US$<span id="precio-compra"></span></div>
-            <div id="ventana-descuento">Descuento: <span id="descuento-compra"></span>%</div>
-            <div class="">
-              <label for="">Formato: </label><select class="" name="" required>
-                <option value="">Seleccionar formato</option>
-                <option id="digital" value="digital">Digital</option>
-                <option id="cd" value="cd">Físico (CD)</option>
-                <option id="dvd" value="dvd">Físico (DVD)</option>
-              </select>
-            </div>
-            <div id="cantidadCompra">
-              <label for="cantidad-compra">Cantidad a comprar: <input class="cantidadAComprar" id="cantidad-compra" type="number" name="quantity" min="1" max="10" required> (Máx. 10 unidades)</label>
-            </div>
-            <div class="">Nombre: <input type="text" name="" value="" required></div>
-            <div class="">Correo electrónico: <input type="text" name="" value="" required></div>
-            <div class="">Dirección: <input type="text" name="" value="" required></div>
-            <div class="">
-              <label for="">Método de envío: </label><select class="" name="" required>
-                <option value="">Seleccionar método</option>
-                <option value="comun">Común (0.5%)</option>
-                <option value="especial">Especial (2%)</option>
-                <option value="premium">Premium (5%)</option>
-              </select>
-            </div>
-            <div class="">
-              <label for="">Medio de pago: </label><select class="" name="" required>
-                <option value="">Seleccionar medio</option>
-                <option value="medio1">Medio 1</option>
-                <option value="medio2">Medio 2</option>
-                <option value="medio3">Medio 3</option>
-                <option value="medio4">Medio 4</option>
-                <option value="medio5">Medio 5</option>
-                <option value="medio6">Medio 6</option>
-              </select>
-            </div>
-            <input type="submit" name="confirmar-compra" value="Comprar">
-          </form>
-          <p id="p-ventana">
-          Precio a pagar
-          <div class="">
-            <div class="">Precio del juego: <span id="precioJuego"></span></div>
-            <div class="">Precio<span id="precioFinalCuenta"> final</span> con IVA (22%): <span id="precioIVA"></span></div>
-            <div id="descuentoFinal" class="">Precio final con descuento: <span id="precioDesc"></span></div>
+          <div class="divJuegoVentana">Comprar <span id="nombre-compra"></span></div>
+          <div class="formularioVentanaCompra">
+            <form id="formularioDeCompra" class="" action="" method="post" onsubmit="compraExito()">
+              <div class="divJuegoFormato">
+                <label for="">Formato: </label>
+                <div class="formatoDig"><input id="formato-digital" type="radio" name="formato" value="fdigital" onchange="" required> Digital</div>
+                <div class="formatoFis"><input id="formato-fisico" type="radio" name="formato" value="ffisico" onchange="" required> Físico (CD / DVD)</div>
+              </div>
+              <div id="optionsCompra" class="">
+                <div class="cantidadAComprar">
+                  <label for="cantidad-compra">Cantidad a comprar: <input id="cantidadCompra" type="number" name="quantity" min="1" max="10" onchange="" required> (Máx. 10 unidades)</label>
+                </div>
+                <div class="divMetodoEnvio">
+                  <label for="">Método de envío: </label><select id="metodoEnvio" class="" name="" onchange="" required>
+                    <option id="selectMetodo" value="1">Seleccionar método</option>
+                    <option value="1.005">Común (0.5%)</option>
+                    <option value="1.02">Especial (2%)</option>
+                    <option value="1.05">Premium (5%)</option>
+                  </select>
+                </div>
+                <div class="divDireccion">Dirección: <input id="direccionEnvio" type="text" name="" value="" maxlength="90" required></div>
+              </div>
+              <div class="divJuegoDatos">
+                <div class="divNombreComprador">Nombre y apellido: <input id="NombreComprador" type="text" name="" value="" maxlength="45" required></div>
+                <div class="divCorreo">Correo electrónico: <input id="CorreoComprador" type="email" name="" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required></div>
+                <div class="divMedioPago">
+                  <label for="">Medio de pago: </label><select id="MedioDePago" class="" name="" required>
+                    <option value="">Seleccionar medio</option>
+                    <option value="PayPal">PayPal</option>
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="American Express">American Express</option>
+                    <option value="Discover">Discover</option>
+                    <option value="JCB">JCB</option>
+                  </select>
+                </div>
+                <div class="divNumTarContr">
+                  N° de tarjeta o contraseña: <input id="ContraseñaTarjeta" type="password" name="nTarjeta" value="" pattern="[A-Za-z0-9]{3,12}"" required>
+                </div>
+              </div>
+              <div class="desgloseCompra">
+                <div class="">Precio base del juego: <span id="precioBase"></span></div>
+                <div class="">IVA (22%): <span id="IVAdeJuego"></span></div>
+                <div class="">Descuento (<span id="DescPorcentaje"></span>%): <span id="descuentoJuego"></span></div>
+                <div class="">Total a pagar: <span id="precioFinalSymbol">US$<span id="precioFinal"></span></span></div>
+              </div>
+              <div class="accionesCompra">
+                <input id="SubmitCompra" type="submit" name="confirmar-compra" value="Comprar">
+                <button id="CancelarCompra" type="button" name="cancelar-compra" onclick="cerrarVentana()">Cancelar</button>
+              </div>
+            </form>
           </div>
-          </p>
+          <img id="imagenCompra" src="../images/Imagen-Ventana-Compra.png" alt="">
         </div>
         <h1 class="h1-juegos-tienda">Todos los juegos</h1>
         <div class="juegos-tres-primeros">
@@ -119,7 +124,7 @@
               </div>
               <div class="">
                 <div class="tienda-juegos-descuento" id="bot-desc0">-<span id="descuj1"></span>%</div>
-                <div class="tienda-juegos-precio" id="0" onclick="compra(this)">US$<span id="precioj1"></div>
+                <div class="tienda-juegos-precio" id="0" onclick="abrirVentana(); compraJuego1()">US$<span id="precioj1"></div>
               </div>
             </div>
           </div>
@@ -139,7 +144,7 @@
               </div>
               <div class="">
                 <div class="tienda-juegos-descuento" id="bot-desc1">-<span id="descuj2"></span>%</div>
-                <div class="tienda-juegos-precio" id="1" onclick="compra(this)">US$<span id="precioj2"></div>
+                <div class="tienda-juegos-precio" id="1" onclick="abrirVentana(); compraJuego2()">US$<span id="precioj2"></div>
               </div>
             </div>
           </div>
@@ -159,7 +164,7 @@
               </div>
               <div class="">
                 <div class="tienda-juegos-descuento" id="bot-desc2">-<span id="descuj3"></span>%</div>
-                <div class="tienda-juegos-precio" id="2" onclick="compra(this)">US$<span id="precioj3"></span></div>
+                <div class="tienda-juegos-precio" id="2" onclick="abrirVentana(); compraJuego3()">US$<span id="precioj3"></span></div>
               </div>
             </div>
           </div>
@@ -181,7 +186,7 @@
               </div>
               <div class="">
                 <div class="tienda-juegos-descuento" id="bot-desc3">-<span id="descuj4"></span>%</div>
-                <div class="tienda-juegos-precio" id="3" onclick="compra(this)">US$<span id="precioj4"></span></div>
+                <div class="tienda-juegos-precio" id="3" onclick="abrirVentana(); compraJuego4()">US$<span id="precioj4"></span></div>
               </div>
             </div>
           </div>
@@ -201,7 +206,7 @@
               </div>
               <div class="">
                 <div class="tienda-juegos-descuento" id="bot-desc4">-<span id="descuj5"></span>%</div>
-                <div class="tienda-juegos-precio" id="4" onclick="compra(this)">US$<span id="precioj5"></div>
+                <div class="tienda-juegos-precio" id="4" onclick="abrirVentana(); compraJuego5()">US$<span id="precioj5"></div>
               </div>
             </div>
           </div>
@@ -221,7 +226,7 @@
               </div>
               <div class="">
                 <div class="tienda-juegos-descuento" id="bot-desc5">-<span id="descuj6"></span>%</div>
-                <div class="tienda-juegos-precio" id="5" onclick="compra(this)">US$<span id="precioj6"></div>
+                <div class="tienda-juegos-precio" id="5" onclick="abrirVentana(); compraJuego6()">US$<span id="precioj6"></div>
               </div>
             </div>
           </div>
@@ -243,7 +248,7 @@
               </div>
               <div class="">
                 <div class="tienda-juegos-descuento" id="bot-desc6">-<span id="descuj7"></span>%</div>
-                <div class="tienda-juegos-precio" id="6" onclick="compra(this)">US$<span id="precioj7"></div>
+                <div class="tienda-juegos-precio" id="6" onclick="abrirVentana(); compraJuego7()">US$<span id="precioj7"></div>
               </div>
             </div>
           </div>
@@ -263,7 +268,7 @@
               </div>
               <div class="">
                 <div class="tienda-juegos-descuento" id="bot-desc7">-<span id="descuj8"></span>%</div>
-                <div class="tienda-juegos-precio" id="7" onclick="compra(this)">US$<span id="precioj8"></div>
+                <div class="tienda-juegos-precio" id="7" onclick="abrirVentana(); compraJuego8()">US$<span id="precioj8"></div>
               </div>
             </div>
           </div>
@@ -283,7 +288,7 @@
               </div>
               <div class="">
                 <div class="tienda-juegos-descuento" id="bot-desc8">-<span id="descuj9"></span>%</div>
-                <div class="tienda-juegos-precio" id="8" onclick="compra(this)">US$<span id="precioj9"></div>
+                <div class="tienda-juegos-precio" id="8" onclick="abrirVentana(); compraJuego9()">US$<span id="precioj9"></div>
               </div>
             </div>
           </div>
@@ -306,6 +311,8 @@
         </div>
       </div>
     </footer>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="../javascript/datos-juegos.js"></script>
     <script type="text/javascript" src="../javascript/pag-juegos.js"></script>
     <script type="text/javascript" src="../javascript/compra-carrito.js"></script>

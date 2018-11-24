@@ -543,6 +543,7 @@ img {
   width: 600px;
   height: 500px;
   background-color: #04445c;
+  border: 5px solid black;
   display: none;
   box-shadow: 0px 0px 20px #000;;
   position: fixed;
@@ -551,28 +552,151 @@ img {
   transform: translate(-50%, -50%);
 }
 
-#ventana-descuento {
+.formularioVentanaCompra {
+  width: 345px;
+  margin-left: 15px;
+  float: left;
+}
+
+#optionsCompra {
   display: none;
 }
 
-#descuentoFinal {
-  display: none;
-}
-
-#precioFinalCuenta {
-  display: none;
-}
-
-.cerrar-ventana-compra {
-  width: 20px;
-  height: 20px;
-  background-color: black;
-  text-align: center;
-  line-height: 20px;
-  font-family: sans-serif;
+#imagenCompra {
   float: right;
-  border-left: 1px solid #03334b;
-  border-bottom: 1px solid #03334b;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.divJuegoVentana {
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.divJuegoFormato {
+  margin-top: 5px;
+  font-size: 17px;
+  width: 345px;
+}
+
+.formatoDig, .formatoFis, .cantidadAComprar, .divMetodoEnvio, .divDireccion, .divNombreComprador, .divCorreo, .divMedioPago, .divNumTarContr {
+  margin-top: 5px;
+}
+
+#cantidadCompra {
+  border-radius: 5px;
+  height: 26px;
+  text-align: center;
+  font-size: 17px;
+  font-family: monospace;
+  margin-left: -3px;
+}
+
+#metodoEnvio {
+  width: 204px;
+  border-radius: 5px;
+  height: 30px;
+  text-align: center;
+  font-size: 17px;
+  font-family: sans-serif;
+  margin-left: 16px;
+}
+
+#direccionEnvio {
+  width: 200px;
+  border-radius: 5px;
+  height: 26px;
+  font-size: 17px;
+  font-family: sans-serif;
+  margin-left: 65px;
+}
+
+#NombreComprador {
+  width: 200px;
+  border-radius: 5px;
+  height: 26px;
+  font-size: 17px;
+  font-family: sans-serif;
+  margin-left: 4px;
+}
+
+#CorreoComprador {
+  width: 200px;
+  border-radius: 5px;
+  height: 26px;
+  font-size: 17px;
+  font-family: sans-serif;
+  margin-left: 5px;
+}
+
+#MedioDePago {
+  width: 204px;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 17px;
+  font-family: sans-serif;
+  margin-left: 30px;
+}
+
+#ContraseñaTarjeta {
+  width: 156px;
+  border-radius: 5px;
+  height: 26px;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+#optionsCompra {
+  font-size: 17px;
+  width: 345px;
+}
+
+.divJuegoDatos {
+  font-size: 17px;
+  width: 345px;
+}
+
+.desgloseCompra {
+  border-top: 1px solid white;
+  font-size: 17px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+#precioBase, #IVAdeJuego, #descuentoJuego, #precioFinalSymbol {
+  float: right;
+}
+
+.accionesCompra {
+  background-color: blue;
+  font-size: 17px;
+  width: 345px;
+  margin-top: 5px;
+}
+
+#SubmitCompra {
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #03334b;
+  border: 2px solid green;
+  color: white;
+  float: left;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+#CancelarCompra {
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #03334b;
+  border: 2px solid red;
+  color: white;
+  float: right;
+  margin-right: 50px;
   cursor: pointer;
 }
 
@@ -2087,7 +2211,7 @@ color: white;
 .info-dentro1 img{
   width: 100%;
   border-radius: 10px;
-  margin-bottom:10px;  
+  margin-bottom:10px;
 }
 .info-dentro1 p{
   margin-left:10px;
